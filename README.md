@@ -1,3 +1,7 @@
+# What is this fork about?
+
+Making more icons and refine the workflow. See Master/readme.md
+
 # FreeCAD-Flat-Icons
 An icon theme for FreeCAD to be applied with the Icon Themes addon.
 
