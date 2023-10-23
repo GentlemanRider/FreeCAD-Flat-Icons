@@ -10,7 +10,37 @@
    xml:space="preserve"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
-     id="defs1384"><clipPath
+     id="defs1384"><style
+       id="style5037"><![CDATA[
+.MeshFillArea {
+  display:inline;
+  fill:#40c057;
+  fill-opacity:1;
+  stroke:#f5f4f4;
+  stroke-dasharray:0.166358, 2.49537;
+  stroke-dashoffset:0;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:1;
+  stroke-opacity:1;
+  stroke-width:1.66358;
+}
+
+.ThickOutline {
+  display:inline;
+  fill:none;
+  fill-opacity:1;
+  stroke:#f5f4f4;
+  stroke-dasharray:none;
+  stroke-dashoffset:0;
+  stroke-linecap:round;
+  stroke-linejoin:miter;
+  stroke-miterlimit:5;
+  stroke-opacity:1;
+  stroke-width:3
+;
+}
+]]></style><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath306"><g
          id="g310"
