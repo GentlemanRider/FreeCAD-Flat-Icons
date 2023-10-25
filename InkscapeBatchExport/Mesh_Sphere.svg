@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48.000031"
+   viewBox="0 0 48.000001 48.000031"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="MeshDefs"><style
+       id="GR-Mesh"><![CDATA[.IconOutline {
+  stroke:#f5f4f4;
+  fill:none;
+  stroke-width:1.5;
+}
+
+.ThinDotOutline {
+  stroke-dasharray:0.1, 2.5;
+  stroke-linecap:round;
+  stroke-width:1.5;
+}
+
+.ThickDotOutline {
+  stroke-dasharray:0.1, 5;
+  stroke-linecap:round;
+  stroke-width:3;
+}
+.ThickOutline {
+  stroke-linejoin:miter;
+  stroke-miterlimit:3;
+  stroke-opacity:1;
+  stroke-width:3;
+}
+
+.MeshFillArea {
+  display:inline;
+  fill:#7950f2;
+  fill-opacity:1;
+}
+
+.MeshFillAreaDark {
+  display:inline;
+  fill:#6b4cc8;
+  fill-opacity:1;
+}
+
+.BgFillArea {
+  fill: #495057;
+ }
+
+.ImportArrow {
+  fill:#40c057;
+  fill-opacity:1;
+  stroke:none;
+}
+.ExportArrow {
+  fill:#f03e3e;
+  fill-opacity:1;
+  stroke:none;
+}
+.GenericArrow {
+  fill:#F5F4F4;
+  fill-opacity:1;
+  stroke:none;
+}
+]]></style></defs><g
+     id="layer2"
+     style="display:inline"
+     transform="translate(-490.76137,-854.87101)"><circle
+       id="path3189-4"
+       cx="514.76154"
+       cy="878.86993"
+       r="17.745111"
+       class="MeshFillArea"
+       style="stroke-width:0.999997" /><path
+       id="path3189-7-2-6"
+       d="m 514.76269,861.12486 a 6.0127244,17.745111 0 0 1 6.01377,17.744 6.0127244,17.745111 0 0 1 -0.062,2.47288 c 2.78838,-0.15166 5.3629,-0.39038 7.38339,-0.72006 a 13.433298,17.745111 0 0 1 -13.33765,15.99338 17.745111,17.745111 0 0 0 17.74618,-17.744 c 0,0.72069 -1.71158,1.30649 -4.3755,1.74402 a 13.433298,17.745111 0 0 0 0.0665,-1.74622 13.433298,17.745111 0 0 0 -13.4346,-17.744 z m 0,0 a 13.433298,17.745111 0 0 0 -13.43247,17.744 13.433298,17.745111 0 0 0 0.0947,1.89816 c -2.68444,-0.43473 -4.40841,-1.05994 -4.40841,-1.89596 a 17.745111,17.745111 0 0 0 17.74403,17.744 13.433298,17.745111 0 0 1 -13.32896,-15.84584 c 2.0197,0.32671 4.59308,0.53805 7.37899,0.654 a 6.0127244,17.745111 0 0 0 5.94997,15.19184 6.0127244,17.745111 0 0 0 5.95424,-15.27332 c -3.83352,0.20859 -8.06335,0.24075 -11.89756,0.0815 a 6.0127244,17.745111 0 0 1 -0.0665,-2.55436 6.0127244,17.745111 0 0 1 6.01153,-17.744 z"
+       class="MeshFillAreaDark"
+       style="stroke-width:0.999997" /><path
+       id="path3189-4-7"
+       class="IconOutline ThickOutline"
+       d="m 514.71875,860.37695 c -2.6757,0.0401 -5.33853,0.61077 -7.76831,1.73995 -3.0654,1.4454 -5.73836,3.72425 -7.60027,6.56151 -1.9127,2.87819 -2.98876,6.30603 -3.0608,9.76283 -0.0889,3.45397 0.82553,6.92719 2.60178,9.89271 1.57709,2.65328 3.83712,4.90456 6.50349,6.46065 2.77995,1.66065 6.00484,2.51726 9.23676,2.56368 3.32095,3e-4 6.64904,-0.86039 9.50565,-2.56824 2.66541,-1.55765 4.92225,-3.81192 6.4998,-6.46435 1.66435,-2.7752 2.55625,-5.99115 2.60645,-9.22443 0.16192,-6.44815 -3.40135,-12.80194 -8.94966,-16.07895 -2.87293,-1.73126 -6.2213,-2.65654 -9.57489,-2.64536 z" /><g
+       id="g14404-9-7"
+       style="display:inline"
+       transform="translate(-427.47683,205.4873)"><path
+         d="m 950.41245,684.43529 c 0,-1.5892 1.2882,-2.87742 2.8774,-2.87742 h 10.071 c 1.5892,0 2.8774,1.28822 2.8774,2.87742 v 10.07095 c 0,1.5892 -1.2882,2.87742 -2.8774,2.87742 h -10.071 c -1.5892,0 -2.8774,-1.28822 -2.8774,-2.87742 z"
+         fill="#f2f2f2"
+         id="path12-71-0-5"
+         style="display:inline;stroke-width:1.51825" /><rect
+         x="953.93311"
+         y="688.37268"
+         width="8.7844658"
+         height="2.1961164"
+         id="rect517-6-3-6"
+         style="display:inline;fill:#343a40;stroke-width:1.63179" /><rect
+         x="685.07849"
+         y="-959.42334"
+         width="8.7844658"
+         height="2.1961164"
+         id="rect517-6-6-4-9"
+         style="display:inline;fill:#343a40;stroke-width:1.63179"
+         transform="rotate(90)" /></g></g></svg>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48.000015"
+   height="48"
+   viewBox="0 0 48.000016 48"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="MeshDefs"><style
+       id="GR-Mesh"><![CDATA[.IconOutline {
+  stroke:#f5f4f4;
+  fill:none;
+  stroke-width:1.5;
+}
+
+.ThinDotOutline {
+  stroke-dasharray:0.1, 2.5;
+  stroke-linecap:round;
+  stroke-width:1.5;
+}
+
+.ThickDotOutline {
+  stroke-dasharray:0.1, 5;
+  stroke-linecap:round;
+  stroke-width:3;
+}
+.ThickOutline {
+  stroke-linejoin:miter;
+  stroke-miterlimit:3;
+  stroke-opacity:1;
+  stroke-width:3;
+}
+
+.MeshFillArea {
+  display:inline;
+  fill:#7950f2;
+  fill-opacity:1;
+}
+
+.MeshFillAreaDark {
+  display:inline;
+  fill:#6b4cc8;
+  fill-opacity:1;
+}
+
+.BgFillArea {
+  fill: #495057;
+ }
+
+.ImportArrow {
+  fill:#40c057;
+  fill-opacity:1;
+  stroke:none;
+}
+.ExportArrow {
+  fill:#f03e3e;
+  fill-opacity:1;
+  stroke:none;
+}
+.GenericArrow {
+  fill:#F5F4F4;
+  fill-opacity:1;
+  stroke:none;
+}
+]]></style></defs><g
+     id="layer2"
+     style="display:inline"
+     transform="translate(85.238653,-782.87104)"><g
+       id="g130754"
+       transform="translate(-24.728982,-126.83338)"><path
+         id="path306-2-1-3"
+         d="m -23.011907,919.72832 -17.069668,-3.92755 -11.942884,6.93592 -2.577406,19.78661 15.16318,-11 z"
+         class="MeshFillArea" /><path
+         id="path306-2-1-3-0"
+         d="m -40.081575,915.80077 -11.942884,6.93592 12.585774,8.78661 z"
+         class="MeshFillAreaDark" /><path
+         id="path306-2-1-0-9"
+         d="m -50.007446,947.68052 17.069668,3.92755 11.942884,-6.93592 2.577406,-19.78661 -15.16318,11 z"
+         class="MeshFillArea" /><path
+         id="path306-2-1-3-0-8"
+         d="m -20.994894,944.67215 -11.942884,6.93592 -0.64289,-15.72253 z"
+         class="MeshFillAreaDark" /><path
+         id="path306-2-1"
+         d="m -23.011907,919.72832 -17.069668,-3.92755 -11.942884,6.93592 -2.577406,19.78661 15.16318,-11 z"
+         class="IconOutline ThickOutline" /><path
+         id="path306-2-1-0"
+         d="m -50.007446,947.68052 17.069668,3.92755 11.942884,-6.93592 2.577406,-19.78661 -15.16318,11 z"
+         class="IconOutline ThickOutline" /><path
+         d="m -28.33546,944.75605 c 0,-1.5892 1.28822,-2.87742 2.87742,-2.87742 h 10.07096 c 1.5892,0 2.87742,1.28822 2.87742,2.87742 v 10.07096 c 0,1.5892 -1.28822,2.87741 -2.87742,2.87741 h -10.07096 c -1.5892,0 -2.87742,-1.28821 -2.87742,-2.87741 z"
+         fill="#f2f2f2"
+         id="path12-6-3"
+         style="display:inline;stroke-width:1.51825" /><rect
+         x="-24.8148"
+         y="948.69348"
+         width="8.7844658"
+         height="2.1961164"
+         id="rect517-4-2"
+         style="display:inline;fill:#343a40;stroke-width:1.63179" /><rect
+         x="-954.18372"
+         y="-21.520641"
+         width="8.7844658"
+         height="2.1961164"
+         id="rect517-4-3-2"
+         style="display:inline;fill:#343a40;stroke-width:1.63179"
+         transform="rotate(-90)" /></g></g></svg>

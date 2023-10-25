@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48.000015"
+   viewBox="0 0 48.000001 48.000015"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="MeshDefs"><style
+       id="GR-Mesh"><![CDATA[.IconOutline {
+  stroke:#f5f4f4;
+  fill:none;
+  stroke-width:1.5;
+}
+
+.ThinDotOutline {
+  stroke-dasharray:0.1, 2.5;
+  stroke-linecap:round;
+  stroke-width:1.5;
+}
+
+.ThickDotOutline {
+  stroke-dasharray:0.1, 5;
+  stroke-linecap:round;
+  stroke-width:3;
+}
+.ThickOutline {
+  stroke-linejoin:miter;
+  stroke-miterlimit:3;
+  stroke-opacity:1;
+  stroke-width:3;
+}
+
+.MeshFillArea {
+  display:inline;
+  fill:#7950f2;
+  fill-opacity:1;
+}
+
+.MeshFillAreaDark {
+  display:inline;
+  fill:#6b4cc8;
+  fill-opacity:1;
+}
+
+.BgFillArea {
+  fill: #495057;
+ }
+
+.ImportArrow {
+  fill:#40c057;
+  fill-opacity:1;
+  stroke:none;
+}
+.ExportArrow {
+  fill:#f03e3e;
+  fill-opacity:1;
+  stroke:none;
+}
+.GenericArrow {
+  fill:#F5F4F4;
+  fill-opacity:1;
+  stroke:none;
+}
+]]></style></defs><g
+     id="layer2"
+     style="display:inline"
+     transform="translate(-490.76137,-782.87102)"><g
+       id="g14404-9-8"
+       style="display:inline"
+       transform="translate(-427.47688,133.48738)"><path
+         d="m 950.41245,684.43529 c 0,-1.5892 1.2882,-2.87742 2.8774,-2.87742 h 10.071 c 1.5892,0 2.8774,1.28822 2.8774,2.87742 v 10.07095 c 0,1.5892 -1.2882,2.87742 -2.8774,2.87742 h -10.071 c -1.5892,0 -2.8774,-1.28822 -2.8774,-2.87742 z"
+         fill="#f2f2f2"
+         id="path12-71-0-8"
+         style="display:inline;stroke-width:1.51825" /><rect
+         x="953.93311"
+         y="688.37268"
+         width="8.7844658"
+         height="2.1961164"
+         id="rect517-6-3-5"
+         style="display:inline;fill:#343a40;stroke-width:1.63179" /><rect
+         x="685.07849"
+         y="-959.42334"
+         width="8.7844658"
+         height="2.1961164"
+         id="rect517-6-6-4-1"
+         style="display:inline;fill:#343a40;stroke-width:1.63179"
+         transform="rotate(90)" /></g><ellipse
+       id="path3189-4-6"
+       cx="934.53436"
+       cy="205.85803"
+       class="MeshFillArea"
+       style="display:inline;fill:#7950f2;fill-opacity:1;stroke-width:0.999999"
+       rx="12.436201"
+       ry="20.399128"
+       transform="rotate(45)" /><path
+       id="path3189-7-2-6-5"
+       d="m 529.67688,791.95542 a 4.2138622,20.399126 45 0 1 -11.44335,17.40364 4.2138622,20.399126 45 0 1 -2.04057,1.97962 c 1.50508,1.2585 2.975,2.34027 4.24422,3.07355 a 9.4143791,20.399126 45 0 1 -19.61003,6.39089 12.436202,20.399126 45 0 0 23.2177,-5.62921 c -0.58582,0.58583 -1.91019,0.21381 -3.58604,-0.7507 a 9.4143791,20.399126 45 0 0 1.45229,-1.38659 9.4143791,20.399126 45 0 0 7.76589,-21.08112 z m 0,0 a 9.4143791,20.399126 45 0 0 -21.08006,7.76688 9.4143791,20.399126 45 0 0 -1.49595,1.58988 c -0.97698,-1.6837 -1.32304,-3.04621 -0.64353,-3.72577 a 12.436202,20.399126 45 0 0 -5.6303,23.21662 9.4143791,20.399126 45 0 1 6.27526,-19.48578 c 0.73527,1.26645 1.83884,2.71352 3.12507,4.18831 a 4.2138622,20.399126 45 0 0 -9.40033,15.29747 4.2138622,20.399126 45 0 0 15.36592,-9.46444 c -2.06937,-1.7302 -4.19164,-3.80013 -5.96221,-5.82965 a 4.2138622,20.399126 45 0 1 2.04344,-2.10921 4.2138622,20.399126 45 0 1 17.40259,-11.44438 z"
+       class="MeshFillAreaDark"
+       style="display:inline;fill:#6b4cc8;fill-opacity:1;stroke-width:0.999999" /><path
+       id="path3189-4-7-6"
+       class="IconOutline ThickOutline"
+       d="m 530.15883,791.38231 c -1.76111,-1.71429 -4.20967,-2.53795 -6.63414,-2.62787 -4.47052,-0.11857 -8.76118,1.6863 -12.44956,4.08934 -4.92138,3.30677 -9.05184,7.88926 -11.53844,13.29283 -1.45966,3.22325 -2.3638,6.86902 -1.68233,10.39972 0.5085,2.97037 2.56453,5.67557 5.42302,6.73147 3.86848,1.48225 8.19601,0.5905 11.88029,-1.00757 6.22986,-2.78855 11.42996,-7.71818 14.79707,-13.63004 1.84076,-3.34457 3.1684,-7.14756 2.87797,-11.01057 -0.13435,-2.30639 -1.0335,-4.58712 -2.67388,-6.23731 z" /></g></svg>

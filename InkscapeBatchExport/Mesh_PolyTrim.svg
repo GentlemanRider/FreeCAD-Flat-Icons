@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 48"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="MeshDefs"><style
+       id="GR-Mesh"><![CDATA[.IconOutline {
+  stroke:#f5f4f4;
+  fill:none;
+  stroke-width:1.5;
+}
+
+.ThinDotOutline {
+  stroke-dasharray:0.1, 2.5;
+  stroke-linecap:round;
+  stroke-width:1.5;
+}
+
+.ThickDotOutline {
+  stroke-dasharray:0.1, 5;
+  stroke-linecap:round;
+  stroke-width:3;
+}
+.ThickOutline {
+  stroke-linejoin:miter;
+  stroke-miterlimit:3;
+  stroke-opacity:1;
+  stroke-width:3;
+}
+
+.MeshFillArea {
+  display:inline;
+  fill:#7950f2;
+  fill-opacity:1;
+}
+
+.MeshFillAreaDark {
+  display:inline;
+  fill:#6b4cc8;
+  fill-opacity:1;
+}
+
+.BgFillArea {
+  fill: #495057;
+ }
+
+.ImportArrow {
+  fill:#40c057;
+  fill-opacity:1;
+  stroke:none;
+}
+.ExportArrow {
+  fill:#f03e3e;
+  fill-opacity:1;
+  stroke:none;
+}
+.GenericArrow {
+  fill:#F5F4F4;
+  fill-opacity:1;
+  stroke:none;
+}
+]]></style></defs><g
+     id="layer2"
+     style="display:inline"
+     transform="translate(-58.761345,-638.87104)"><path
+       id="path1390-2-3-3-7-1-0-2-7-0-6-1-1-6-0-68-7"
+       d="m 82.76136,651.42091 -17.28928,2.71638 v 22.90113 l 17.28928,-2.71638 z"
+       class="MeshFillArea" /><path
+       id="path1390-2-3-3-7-1-0-2-7-0-6-1-1-6-0-68-7-9"
+       d="m 65.472079,654.13729 v 22.90113 l 17.289281,-2.71638 z"
+       class="MeshFillAreaDark" /><path
+       id="path1390-2-3-3-7-1-0-2-7-0-6-1-1-6-0-68-7-0"
+       d="m 82.76136,651.42091 -17.28928,2.71638 v 22.90113 l 17.28928,-2.71638 z"
+       class="IconOutline ThickOutline" /><path
+       id="path1390-2-3-3-7-1-0-2-7-0-6-1-1-6-0-68-0-6"
+       d="m 100.05064,648.70453 -17.28928,2.71638 v 22.90113 l 17.28928,-2.71638 z"
+       style="display:inline;fill:#495057;fill-opacity:1;stroke:#f2f2f2;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:5.1;stroke-opacity:1;paint-order:markers fill stroke" /><path
+       style="color:#000000;fill:#f2f2f2;stroke-linecap:square"
+       d="m 81.26214,645.93909 v 34.3353 l 3,-0.47135 v -34.33529 z"
+       id="path69084-5-8-4-7-1-2-6-9" /></g></svg>

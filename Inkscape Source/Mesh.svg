@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1387"
    sodipodi:docname="Mesh.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
    xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      showgrid="false"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="121.74999"
-     inkscape:cy="192.24999"
+     inkscape:zoom="5.6568545"
+     inkscape:cx="598.21231"
+     inkscape:cy="40.393473"
      inkscape:window-width="2488"
      inkscape:window-height="1376"
      inkscape:window-x="72"
@@ -38,7 +38,9 @@
        width="48"
        height="48"
        id="page134946"
-       inkscape:label="Mesh" /><inkscape:page
+       inkscape:label="Mesh"
+       margin="0"
+       bleed="0" /><inkscape:page
        x="5.9112102e-07"
        y="216"
        width="48"
@@ -279,7 +281,9 @@
        spacingy="12"
        originx="-5e-07"
        originy="0"
-       empspacing="6" /><inkscape:page
+       empspacing="6"
+       units="px"
+       visible="false" /><inkscape:page
        x="1008.0001"
        y="360"
        width="48"
@@ -1856,8 +1860,7 @@
        style="stroke-width:1" /><path
        id="path3189-7-2-6-7"
        d="m 370.76266,572.82009 a 6.1159724,18.049822 0 0 1 6.11705,18.0487 6.1159724,18.049822 0 0 1 -0.063,2.51535 c 2.83627,-0.15427 5.45499,-0.39708 7.51018,-0.73243 a 13.66397,18.049822 0 0 1 -13.56667,16.26802 18.049822,18.049822 0 0 0 18.05089,-18.04869 c 0,0.73306 -1.74096,1.32893 -4.45062,1.77395 a 13.66397,18.049822 0 0 0 0.0676,-1.7762 13.66397,18.049822 0 0 0 -13.6653,-18.0487 z m 0,0 a 13.66397,18.049822 0 0 0 -13.66311,18.0487 13.66397,18.049822 0 0 0 0.0963,1.93075 c -2.73053,-0.44219 -4.48411,-1.07814 -4.48411,-1.9285 a 18.049822,18.049822 0 0 0 18.04871,18.04869 13.66397,18.049822 0 0 1 -13.55784,-16.11794 c 2.05439,0.33231 4.67197,0.54729 7.50571,0.66523 a 6.1159724,18.049822 0 0 0 6.05213,15.45271 6.1159724,18.049822 0 0 0 6.0565,-15.53559 c -3.89936,0.21217 -8.20181,0.24489 -12.10186,0.0829 a 6.1159724,18.049822 0 0 1 -0.0676,-2.59823 6.1159724,18.049822 0 0 1 6.11475,-18.04869 z"
-       class="MeshFillAreaDark"
-       style="stroke-width:1" /><circle
+       class="MeshFillAreaDark" /><circle
        id="path3189-4-7-4"
        cx="370.76132"
        cy="590.87103"
@@ -2564,4 +2567,10 @@
        width="13.915526"
        height="11.991332"
        x="-451.63324"
-       y="736.60132" /></g></svg>
+       y="736.60132" /><rect
+       style="fill:#40c057;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:5"
+       id="rect1"
+       width="103.37211"
+       height="67.589287"
+       x="-4.238955"
+       y="366.88998" /></g></svg>
