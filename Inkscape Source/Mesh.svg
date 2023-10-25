@@ -24,7 +24,7 @@
      inkscape:deskcolor="#505050"
      showgrid="false"
      inkscape:zoom="2.0000001"
-     inkscape:cx="121.5"
+     inkscape:cx="121.74999"
      inkscape:cy="192.24999"
      inkscape:window-width="2488"
      inkscape:window-height="1376"
@@ -2558,4 +2558,10 @@
          sodipodi:nodetypes="cc" /><path
          d="m -204.31725,575.30526 9.7115,2.59898"
          id="path16189"
-         class="IconOutline" /></g></g></svg>
+         class="IconOutline" /></g><rect
+       style="fill:#40c057;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:5"
+       id="rect1059"
+       width="13.915526"
+       height="11.991332"
+       x="-451.63324"
+       y="736.60132" /></g></svg>
