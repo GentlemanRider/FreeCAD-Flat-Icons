@@ -46,10 +46,11 @@ The folder (tbd) contains a file named (TBD) which contains two empty pages, a s
 So, I if someone wills to implement icons, what he should do?
 
 ### Retrieving the file (page) names
-First, we need to know what icons a given package will implement. 
-*Note: I did not manage to find an easy way to fetch the icons list from the source.
-At the moment I am surviving by hovering on the icons on the toolbars and naming the pages with the funcion name, which is the last item on the tooltip.*
+First, we need to know what icons a given package will implement.
 
+I grabbed a list by running: find -name '*.svg on the root of the source repository. 1935 results. 
+
+*Next step can be a scanner.ipynb that generats SVG files with the pages already defined?*
 
 ### Creating pages in Inkscape
 Start from the template file (or any of the master files fom the directory (link)). Create / rename the pages according to the module required file names.
