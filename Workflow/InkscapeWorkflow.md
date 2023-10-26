@@ -1,10 +1,10 @@
 # Inkscape workflow
-This document describes the workflow and best practices.
+This document describes the workflow and best practices. (by who? for who? for what?)
 
 ## Prerequisites
 - Latest dev version from the FreeCAD repository (link)
-- Opendark Preference pack (install from addon manager) (link)
-- Icon Themes Add-on (install from addon manager) (link)
+- Opendark Preference pack (installs from addon manager) (link)
+- Icon Themes Add-on (installs from addon manager) (link)
 - Inkscape 1.3 (other versions will do the job, but this guide refers to this particular version)
 
 
@@ -14,6 +14,8 @@ The aim of a unified workflow is to:
 - ensure style consistency
 - build future proof icons, with the possibility to be styled at runtime.
 
+
+
 ### How do we get there?
 During this first development rush I found potential to be harvested in the following built in inkscape funtions:
 
@@ -21,89 +23,61 @@ During this first development rush I found potential to be harvested in the foll
 - CSS styling
 - Batch export
 
-### Starter kit
+### What do we want to achieve by implementing CSS?
+The idea is to use the same icon set for both dark and light themes.
+
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DarkVsLightGoal.png" alt="drawing" style="width:400px;"/>
+
+To achieve this, there should be a common standard for CSS classes. To minimize the effort and the error potential, I suggest using only two mandatory classes: 
+- one specifies the outline color
+- one specifies a background fill (not the actual background, elements that we want maximum contrast against the outline).
+
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DarkVsLightClasses.png" alt="drawing" style="width:500px;"/>
+
+### Why are we adding such level of complexity on top of an aready huge task?
+To my understanding, the development of the flat icon pack has been mostly a one man show with the occasional pull request. I like the theme, want to contribute and want other to be able to join without driving the original author crazy. Scaling up with workforce requires coordination and efficent tool chains.
+
 The folder (tbd) contains a file named (TBD) which contains two empty pages, a set of sample icons, and has the CSS style sheet already embedded.
 
 ![Sample page](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/SamplePage.PNG "Sample Page")
 
- There is also a separate CSS file for reference.
 
-![Sample CSS](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/SampleCSV.PNG "Sample CSS")
+# Starting a new workbench / add on set.
+So, I if someone wills to implement icons, what he should do?
 
-## Starting a new workbench / add on set.
-
-### Retrieving the page names
-
+### Retrieving the file (page) names
+First, we need to know what icons a given package will implement. 
 *Note: I did not manage to find an easy way to fetch the icons list from the source.
-At the moment I am surviving by hovering on the icons on the toolbars and naming the pages with the funcion name, which is the last item onn the tooltip.*
+At the moment I am surviving by hovering on the icons on the toolbars and naming the pages with the funcion name, which is the last item on the tooltip.*
 
 
 ### Creating pages in Inkscape
+Start from the template file (or any of the master files fom the directory (link)). Create / rename the pages according to the module required file names.
+
+*Note: the list generation and the actual icon drawing can be done by different people? Guys familiar with the source code can populate the lists and other can draw the icons*
+
 Select the page tool from the bottom of the left toolbar, the page toolbox appears on the top toolbar.
 
 (screeenshots TBD)
 
 The master file should contain one page for each icon used ina given workbench or add-on. It is possible to move the pages around using the page tool. Elements can exist outside the pages, they will be ignored during export. I keep working copies and other miscellaneous stuff there if I need.
 
-## Create a new icon
-This chapter describes the step by step procedure to create an icon, according to the style guideline found here (link) and using CSS styling.
+*Note: it might be helpflul in the long ran to have md files paired to the SVGs to track the working status. Or whatever tracking tool (github issues?) is more efficient* 
 
-(screenshot TBD)
+## Create the icons
+(------ instructions on how to handle CSS in a separate file -----)
 
-## Create overall shapes
-(screenshot TBD)
+# Install icons locally
 
-## Apply styles: shape fill
-*Note: the native CSS selectors tool is buggy and lead to sudden Inkscape crashes. I always used the XML editor for this, it's less polished but more reliable.*
+## Batch export
+Seems like Inkscape wants to add a prefix to the exported files. The files then need to be renamed or they will not be seen by the theme add on. I foud a workaround doing batch rename on the terminal:
 
-Working with CSS means that the fill / stroke toolbox on Inkscape is accessed very rarely. Instead, CSS classes are used to drive the shapes style eattributes. 
+rename 's/^...//' *.svg will rename all the svg files in a directory removing the first three characters. 
 
-Select the element, assign it to a class from the XML editor (add a property named class type in one or more class names) and delete the 'style' property from the element itself.
+*Note: having empty pages in the file will result in empty output files. Deselect them using batch export or use some kind of placeholder in Inkscape*
 
-(screenshot of the classes selection with properly colored shapes)
+## Icon Theme legacy mode
+The icon theme add-on allows to use the icons in the actual program in legacy mode by just copying all of them into a specific folder. To be recognized, it needs the presence of a folder called license (*at least on my machine*). The addon github page has documentation for that.
 
-## Add thin outlines
-Add the outline selectors to the overall shapes.
+*Note: the default setting directory is /home/user/.FreeCAD. Running appimage on Ubuntu 22 is located in /home/user/.local/share/FreeCAD* 
 
-(screenshot of the classes selection with properly outlined shapes)
-
-Draw the inner outlines, don't care about thicknesses, just make sure snapping is enabled and the paths are in the right places. 
-
-(screenshot of the poorly styled inner outlines)
-
-Then, go to the CSS selector toolbox and style the lines by assigning classes to the paths.
-
-(screenshot of the properly styled inner outlines)
-
-## Add dotted outlines
-
-(---------------)
-
-## Add shadow
-
-Draw the shadow outline:
-
-(screenshot of the poorly styled shadow)
-
-Style it using the CSS selectors toolbox, then play around with stacking to place the shape at the required height for proper display.
-
-(screenshot of the stack handling toolbar)
-
-## Add overall outlines
-
-The style guide states an overall outline thicker than the inner ones, and it must lineup internally (not on the path center).
-
-#### Configure the default inset / outset
-
-A simple way to achieve it is by growing the outline path by 0.75px. To do that on a single click, configure the outset offset in the inkscape preferences:
-- Select *Edit / Preferences* from the inkscape menu
-- *Behavior / steps* in the preference tree
-- set *Inset/outset by:* to 0.75px
-
-#### Create the overall outline path
-
-Select the object backgound, copy, paste and merge them. Then add ThickOutline class.
-
-Drag and snap the resulting shape on top of the icon, then select Path > Outset.
-
-(-----------------)
