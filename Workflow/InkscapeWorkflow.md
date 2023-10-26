@@ -22,11 +22,13 @@ During this first development rush I found potential to be harvested in the foll
 - Batch export
 
 ### Starter kit
-The folder (tbd) contains a file named (TBD) which contains two empty pages, a set of sample icons, and has the CSS style sheet already embedded. There is also a separate CSS file for reference.
+The folder (tbd) contains a file named (TBD) which contains two empty pages, a set of sample icons, and has the CSS style sheet already embedded.
 
-![Sample page](./images/SamplePage.PNG "Sample Page")
+![Sample page](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/SamplePage.PNG "Sample Page")
 
-![Sample CSS](./images/SampleCSV.PNG "Sample CSS")
+ There is also a separate CSS file for reference.
+
+![Sample CSS](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/SampleCSV.PNG "Sample CSS")
 
 ## Starting a new workbench / add on set.
 
@@ -39,17 +41,17 @@ At the moment I am surviving by hovering on the icons on the toolbars and naming
 ### Creating pages in Inkscape
 Select the page tool from the bottom of the left toolbar, the page toolbox appears on the top toolbar.
 
-(screeenshots)
+(screeenshots TBD)
 
 The master file should contain one page for each icon used ina given workbench or add-on. It is possible to move the pages around using the page tool. Elements can exist outside the pages, they will be ignored during export. I keep working copies and other miscellaneous stuff there if I need.
 
 ## Create a new icon
 This chapter describes the step by step procedure to create an icon, according to the style guideline found here (link) and using CSS styling.
 
-(screenshot of the sample icon)
+(screenshot TBD)
 
 ## Create overall shapes
-(screenshot of two shapes)
+(screenshot TBD)
 
 ## Apply styles: shape fill
 *Note: the native CSS selectors tool is buggy and lead to sudden Inkscape crashes. I always used the XML editor for this, it's less polished but more reliable.*
