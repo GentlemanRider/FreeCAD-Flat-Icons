@@ -8,8 +8,29 @@
    version="1.1"
    id="svg1387"
    xml:space="preserve"
+   sodipodi:docname="Mesh.svg"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.979167"
+     inkscape:cx="23.979149"
+     inkscape:cy="24"
+     inkscape:window-width="2488"
+     inkscape:window-height="1376"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" /><defs
      id="MeshDefs"><style
        id="GR-Mesh"><![CDATA[.IconOutline {
   stroke:#f5f4f4;
@@ -69,13 +90,7 @@
 ]]></style></defs><g
      id="layer2"
      style="display:inline"
-     transform="translate(229.23865,-566.87104)"><rect
-       style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:3;stroke-miterlimit:5;stroke-dasharray:0.1, 4.5;stroke-dashoffset:0.9"
-       id="rect7987"
-       width="79.922012"
-       height="74.328255"
-       x="-243.29874"
-       y="552.61792" /><g
+     transform="translate(229.23865,-566.87104)"><g
        id="g1006"
        transform="translate(0.1343935,0.08202)"><path
          id="path14722-9"
