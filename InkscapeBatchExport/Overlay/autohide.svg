@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12"
+   height="12"
+   viewBox="0 0 12 12"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="FlatIconDefs"><style
+       id="FlatIconStlyle"><![CDATA[.IconOutline { stroke:#f5f4f4;  fill:none;  stroke-width:1.5; }
+.ThinDotOutline { stroke-dasharray:0.1, 2.5;  stroke-linecap:round; }
+.ThickDotOutline { stroke-dasharray:0.1, 5;  stroke-linecap:round;  stroke-width:3; }
+.ThickOutline { stroke-linejoin:miter;  stroke-miterlimit:3;  stroke-width:3; }
+.MiniOutline { stroke-width: 1;stroke-linecap: round; }
+.CornerButton { stroke-width: 8;  stroke-linejoin: round; }
+.OutlineAsFill { fill: #f5f4f4; }
+.MeshFillArea { fill:#7950f2; }
+.MeshFillAreaDark { fill:#6b4cc8; }
+.DynDataFillArea { fill:#aea72c; }
+.PartFillArea { fill:#3769ff }
+.BgFillArea { fill: #495057; }
+.AdditiveFillArea { fill: #40c057 }
+.SubtractArea { fill: #f03e3e; }
+.IntersectArea { fill: #4c6ef5; }
+.ImportArrow { fill:#40c057; }
+.ExportArrow { fill:#f03e3e; }
+.GenericArrow { fill:#F5F4F4; }
+.SketchFill { fill: #f5f4f4; }
+.SketckOutline { stroke:#f03e3e; }
+.SpreadsheetFill { fill: #868e96; }
+.SpreadsheetLines { stroke:#495057; }
+]]></style></defs><g
+     id="g5"
+     transform="translate(-9.29e-4)"><path
+       id="path5607"
+       d="M 5,1.5 10.501761,1.50796 10.5,10.5 H 5"
+       class="IconOutline  MiniOutline" /><path
+       id="path5609"
+       d="m 8.5,6 h -5"
+       class="IconOutline  MiniOutline" /><path
+       id="path5611"
+       d="m 4.4999599,4 -3,2 3,2"
+       class="IconOutline  MiniOutline" /></g></svg>
