@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 48"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="FlatIconDefs"><style
+       id="FlatIconStlyle"><![CDATA[.IconOutline { stroke:#f5f4f4;  fill:none;  stroke-width:1.5; }
+.ThinDotOutline { stroke-dasharray:0.1, 2.5;  stroke-linecap:round; }
+.ThickDotOutline { stroke-dasharray:0.1, 5;  stroke-linecap:round;  stroke-width:3; }
+.ThickOutline { stroke-linejoin:miter;  stroke-miterlimit:3;  stroke-width:3; }
+.CornerButton { stroke-width: 8;  stroke-linejoin: round; }
+.OutlineAsFill { fill: #f5f4f4; }
+.ViewFillArea { fill: #72a1ff }
+.MeshFillArea { fill:#7950f2; }
+.MeshFillAreaDark { fill:#6b4cc8; }
+.DynDataFillArea { fill:#aea72c; }
+.PartFillArea {   }
+.BgFillArea { fill: #495057; }
+.AdditiveFillArea { fill: #40c057 }
+.SubtractArea { fill: #f03e3e; }
+.IntersectArea { fill: #4c6ef5; }
+.ImportArrow { fill:#40c057; }
+.ExportArrow { fill:#f03e3e; }
+.GenericArrow { fill:#F5F4F4; }
+.SketchFill { fill: #f5f4f4; }
+.SketckOutline { stroke:#f03e3e; }
+.SpreadsheetFill { fill: #868e96; }
+.SpreadsheetLines { stroke:#495057; }
+]]></style></defs><g
+     id="g30"
+     transform="translate(-201.99998,216.00001)"><path
+       d="m 235.34679,-209.16479 -0.0586,26.41249"
+       id="path15-9-9-3-3"
+       class="IconOutline"
+       style="fill:none;stroke:#f5f4f4;stroke-width:1.5" /><path
+       d="m 243.32664,-201.13191 -8.80479,-8.86393 -26.67013,-0.13478 8.86975,8.89045 z"
+       id="path7"
+       class="ViewFillArea" /><path
+       d="m 243.32664,-174.69493 -8.03847,-8.05737 -26.46957,0.0239"
+       id="path5-0-7-8-9-6"
+       class="IconOutline"
+       style="fill:none;stroke:#f5f4f4;stroke-width:1.5" /><path
+       d="m 208.683,-209.29754 8.03847,8.05737 26.46957,-0.0239"
+       id="path5-3-3-9-2"
+       class="IconOutline"
+       style="fill:none;stroke:#f5f4f4;stroke-width:1.5" /><path
+       d="m 216.72147,-201.24017 0.10599,26.54524"
+       id="path13-5-6-4-0"
+       class="IconOutline"
+       style="fill:none;stroke:#f5f4f4;stroke-width:1.5" /><path
+       d="m 208.683,-209.29754 0.16993,26.62638 7.97453,7.97623 h 26.49918 v -26.43698 l -7.97985,-8.03288 z"
+       id="path11-2-1-7-6"
+       class="IconOutline  ThickOutline"
+       style="fill:none;stroke:#f5f4f4;stroke-width:3;stroke-linejoin:miter;stroke-miterlimit:3" /></g></svg>
