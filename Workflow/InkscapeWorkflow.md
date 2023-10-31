@@ -68,14 +68,42 @@ The master file should contain one page for each icon used ina given workbench o
 ## Create the icons
 (------ instructions on how to handle CSS in a separate file -----)
 
-# Install icons locally
 
-## Batch export
-Seems like Inkscape wants to add a prefix to the exported files. The files then need to be renamed or they will not be seen by the theme add on. I foud a workaround doing batch rename on the terminal:
 
-rename 's/^...//' *.svg will rename all the svg files in a directory removing the first three characters. 
+# Batch export
+## Doing it from inkscape GUI
 
-*Note: having empty pages in the file will result in empty output files. Deselect them using batch export or use some kind of placeholder in Inkscape*
+Once the multipage document is ready it is possible to export all the pages as single files using the batch export option.
+
+The output file name corresponds to the page name. Seems like Inkscape wants to add a prefix to the exported files; the files then need to be renamed or they will not be seen by the theme add on. I foud a workaround doing batch rename on the terminal: rename 's/^...//' *.svg will rename all the svg files in a directory removing the first three characters. 
+
+*Note: having empty pages in the file will result in empty output files. Deselect them from the batch export toolbox or use some kind of placeholder in Inkscape*
+
+## Doing it properly (WIP)
+The master files folder should contain:
+- the multi page SVG files
+- one (or more) CSS style files (dark, light, etc)
+- a script that inserts a CSS file in all the masters (takes the CSS file as argument)
+- a script that launches the export
+  
+### Centralized CSS
+The CSS is defined in the <defs <style>> part of the SVG. It is an XML so it is manageable from pytnon, as XML tree or raw text file. The script gets called with something like *python3 setStyle.py -s prodark.css*
+
+### Action files
+It seems possible to call inkscape from the command line and perform tasks defined in a 'action file'. I'm still trying to find documentation for that. The aim is to:
+- call a single bash script
+- the script creates two folders: one for QCC compiling and one for legacy mode
+- calls inkscape with the action file as argument
+- inkscape export the page in all master files to the output directories with proper names. Yes, sometimes they need to be diffferent. QCC uses the original icons names, legacy mode wants the function names.
+- in the action file we can also specify to export an icon multiple times with different scales, different names, different format. I never faced that, but there is a function in Linkstage3 for multiple mappping. If that does not get ported, we will survive with multiple exports.
+
+If we manage to build this, once we have proper master files the package building and / or re-render happens with two shell commands at max. Ideally, QCC compiling could be automated as well?
+
+### Packing it all up
+To implement the multipage / CSS workflow to the whole thing, we need to:
+- merge the original single files into multipage documents (per module / workbench)
+- refactor the original symbols by deleting style attributes from the elements and using classes instead
+- define and document how the development of an icon set should start and how it should proceed to ensure compatibility with the workflow
 
 ## Icon Theme legacy mode
 The icon theme add-on allows to use the icons in the actual program in legacy mode by just copying all of them into a specific folder. To be recognized, it needs the presence of a folder called license (*at least on my machine*). The addon github page has documentation for that.
