@@ -1,27 +1,32 @@
+# Flat icons pack style guide
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/LogoTransition.png" alt="drawing" style="width:800px;"/>
 
+# Design language
+(add screenshot of some icons from different WBs)
+The icons should have a common look and feel that can be obtained through the definition of policies and constraints.
+- fixed outline thickness and color, with a thicker outline on the shapes contour
+- no gradients, nowhere.
+- avoid strongly saturated colors
+- simple shapes with sharp corners
+- 'orthographic view' feeling for 3D elements
 
-### Legacy icons affinity
-When creating an icons set it's strongly recommended to maintain visual affinity with the existing icons. The tooltip solves the issue in the end, but it should be relatively easy to follow tutorials and reference documentation, which tipycally include the classic UI.
+## Legacy icon affinity
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/LegacyVsNewMesh.png" alt="drawing" style="width:600px;"/>
+To avoid confusion, the icons shoud recall somehow the existing ones. The tooltip solves the issue in the end, but it should be relatively easy to follow tutorials and reference documentation, which include the classic UI. The logo on top of this page should give an idea. In this example, green was discarded for mesh since it's already used for other things (see patterns below) and purple was choosen instead. The outline similarities in this case shouls help users to not get lost.
 
-### Flat slanted perspective
-When representing a flat object, a slight skew is strongly recommended to give a common visual style.
+## Minimalism
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/MeasureOldVsNew.png" alt="drawing" style="width:400px;"/>
 
-Draw the overall outline squared, then apply skew -10 (right side high). Inkscape does not alter the X axis, so there will be some kind of elongation on circular path. To correct this, scale width 98.481%, height 100%.
+The simpler the shape, the better the readability at all scales. If the original icon represent a phisycal object, try to use a simpler equivalent instead.
 
-Having the right side up it's not mandatory but strongly recommended for consistency. 
+*Note: that particular icon is NOT consistent with this guide*
 
-### Icon outlines
+## Patterns, common actions
+(Screenshot of some additive vs subtractive functions)
 
-The standard outline for the element is (hex code), 1.5 px. The paths  shoud not have any stle property and belong to the *IconOutline* class.
+Development should keep focus on recognizing common actions and represent them visualy in a consistent, recognizable style.
 
-A
-
-## Common actions
-To maintain consistency across icons and workbenches, it is necessary to adopt simular symbols for similar actions. Tihs chapter describes the patterns recognized so far and how are they presented on the icons. 
-
-*Common symbols should be also categoryzed and collected in a reference file*
-
-### Import -export
+### Import - export
 Import icons should have a green arrow on the left pointing to the center. The path must have the *ImportArrow* class and empty style attribute.
 
 Export icons should have a red arrow on the left pointing to the border. The path must have the *ExportArrow* class and empty style attribute.
@@ -32,3 +37,33 @@ Operations that add items (or volume to solids) should be green. The paths must 
 Operations that remove items (or volume from solids) should be red. The paths must have the *SubtractiveFill* class. They should also have the "-" icon on the left corner.
 
 Operations that create 'bigger' things can be differentiated using a centered "+" icon.
+
+## Terminology
+Package: It is a good practice to work on icon sets, being them workbences / add ons if they are simple (Mesh, spreadsheet for example) or parts of them (Sketcher Constraints, Sketcher Geometry). A collection of icons is called a package.
+
+# Implementation details
+
+## Flat slanted perspective
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DynamicDataExamples.png" alt="drawing" style="width:800px;"/>
+
+- dynamic data workbench icon
+- add property icon (falls into the additive style pattern)
+- delete property icon (falls into the subtractive style pattern)
+- copy property (falls close to copypaste command)
+  
+When representing a physical flat object (a notebook page, in the example above), a slight skew is strongly recommended to give a common visual style.
+
+To obtain the effect: draw the overall outline squared, then apply skew -10 (right side high).  Inkscape does not alter the X axis, so there will be some kind of elongation on circular path. To correct this, scale width 98.481%, height 100%. Different horizontal scaling are accepted if the shape does not look right, but let's keep the same angle for visual consistency when icons from different packages appears at the same time on the screen. Also, try to always have the right side higher.
+
+## Icon outlines
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/LineThicknessOriginal.png" alt="drawing" style="width:400px;"/>
+The standard outline for the element is 1.5 px. The paths  shoud not have any stle property and belong to the *IconOutline* class.
+A thicker outline of 3px across the overall shape is used to increase readability at small scales. The overall outline should match the regular outline on the inside, so it needs to be offset. To achieve this:
+
+- set the outset step parameter to 0.75 px on the Inkscape preferences (you need to do it once)
+- select all the shapes then copy, paste and merge them (*ctrl + c, v, +*).
+- set the resulting path with no style and add the *IconOutline* and *ThickOutline* classes.
+- snap the path on top of the icon
+- select *path / outset* from the Inkscape menu.
+  
+
