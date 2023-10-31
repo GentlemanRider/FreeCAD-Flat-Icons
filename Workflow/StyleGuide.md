@@ -42,6 +42,24 @@ Operations that create 'bigger' things can be differentiated using a centered "+
 Package: It is a good practice to work on icon sets, being them workbences / add ons if they are simple (Mesh, spreadsheet for example) or parts of them (Sketcher Constraints, Sketcher Geometry). A collection of icons is called a package.
 
 # Implementation details
+## Inkscape preferences
+### Document settings
+Page settings for a new file from scratch (not recommended)
+
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DocumentSetupOriginal.png" alt="drawing" style="width:400px;"/>
+
+### CSS handling during copy / paste
+By default, Inkscape replicates the class style into pasted elements. This needs to be clean afterwards and it's a pain. Selecting this option disables this behavior and makes working with CSS way easier.
+
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/InkscapeSettingClipboard.png" alt="drawing" style="width:600px;"/>
+
+### Path inset / outset size
+This is required for easy handling of the outer strokes.
+
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/InkscapeSettingStep.png" alt="drawing" style="width:600px;"/>
+
+## CSS driven styles
+Inkscape and QT both support CSS styling on SVG elements. This is beneficial because it enforces style consistency and also allows to alter the style at a later stage in a centralized manner. (if you are thinking about a future light version, you are right). The provided (path and filename) CSS file includes all the classes referenced in this guide.
 
 ## Flat slanted perspective
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DynamicDataExamples.png" alt="drawing" style="width:800px;"/>
@@ -51,16 +69,18 @@ Package: It is a good practice to work on icon sets, being them workbences / add
 - delete property icon (falls into the subtractive style pattern)
 - copy property (falls close to copypaste command)
   
-When representing a physical flat object (a notebook page, in the example above), a slight skew is strongly recommended to give a common visual style.
+When representing a physical flat object (a notebook page, in the example above), a slight skew is strongly recommended to give a common visual style. To obtain the effect: 
 
-To obtain the effect: draw the overall outline squared, then apply skew -10 (right side high).  Inkscape does not alter the X axis, so there will be some kind of elongation on circular path. To correct this, scale width 98.481%, height 100%. Different horizontal scaling are accepted if the shape does not look right, but let's keep the same angle for visual consistency when icons from different packages appears at the same time on the screen. Also, try to always have the right side higher.
+- draw the overall outline squared, then apply skew -10 (right side high).
+- Inkscape does not alter the X axis, so there will be some kind of elongation on circular path. To correct this, scale width 98%, height 100%. It might require to apply the scale more times, depending on the shape to make it loook 'right'.
+- Please keep the same angle for visual consistency when icons from different packages appears at the same time on the screen.
+- Also, try to always have the right side higher.
 
 ## Icon outlines
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/LineThicknessOriginal.png" alt="drawing" style="width:400px;"/>
 The standard outline for the element is 1.5 px. The paths  shoud not have any stle property and belong to the *IconOutline* class.
 A thicker outline of 3px across the overall shape is used to increase readability at small scales. The overall outline should match the regular outline on the inside, so it needs to be offset. To achieve this:
 
-- set the outset step parameter to 0.75 px on the Inkscape preferences (you need to do it once)
 - select all the shapes then copy, paste and merge them (*ctrl + c, v, +*).
 - set the resulting path with no style and add the *IconOutline* and *ThickOutline* classes.
 - snap the path on top of the icon
