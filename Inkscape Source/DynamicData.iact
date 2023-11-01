@@ -1,0 +1,30 @@
+export-area:(0 0 100 100); export-filename: legacy/DynamicDataLogo.svg;
+export-plain-svg;  export-overwrite;  export-do;
+
+export-area: page2; export-filename: legacy/DynamicDataCreateObject.svg; 
+export-plain-svg; export-overwrite; export-do;
+
+export-area: page3;  export-filename: legacy/DynamicDataAddProperty.svg; 
+export-plain-svg; export-overwrite; export-do;
+
+export-area: page4;  export-filename: legacy/DynamicDataRemoveProperty.svg; 
+export-plain-svg; export-overwrite; export-do;
+
+export-area: page6;  export-filename: legacy/DynamicDataImportNamedConstraints.svg; 
+export-plain-svg; export-overwrite; export-do;
+
+export-area: page7;  export-filename: legacy/DynamicDataImportAliases.svg; 
+export-plain-svg; export-overwrite; export-do; 
+
+export-area: page8;  export-filename: legacy/DynamicDataCopyProperty.svg; 
+export-plain-svg; export-overwrite;  export-do;
+
+export-area: page9;  export-filename: legacy/DynamicDataSettings.svg; 
+export-plain-svg; export-overwrite; export-do;
+
+export-area: page10; export-filename: legacy/DynamicDataEditEnumeration.svg; 
+export-plain-svg; export-overwrite; export-do;
+
+export-area: page11; export-filename: legacy/DynamicDataCreateConfiguration.svg; 
+export-plain-svg; export-overwrite; export-do;
+

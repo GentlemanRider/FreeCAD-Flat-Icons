@@ -25,12 +25,12 @@
      inkscape:deskcolor="#505050"
      showgrid="false"
      inkscape:zoom="1.2727922"
-     inkscape:cx="-199.95408"
+     inkscape:cx="-199.56125"
      inkscape:cy="-181.0979"
-     inkscape:window-width="2018"
-     inkscape:window-height="1246"
-     inkscape:window-x="159"
-     inkscape:window-y="66"
+     inkscape:window-width="1711"
+     inkscape:window-height="1022"
+     inkscape:window-x="709"
+     inkscape:window-y="383"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer2"
      showguides="true"><inkscape:page
@@ -38,7 +38,7 @@
        y="0"
        width="48"
        height="48"
-       id="page134946"
+       id="page1"
        inkscape:label="DynamicDataLogo"
        margin="0"
        bleed="0" /><inkscape:page
@@ -46,7 +46,7 @@
        y="-398.73578"
        width="48"
        height="48"
-       id="page134944"
+       id="page2"
        inkscape:label="DynamicDataCreateObject"
        margin="0"
        bleed="0" /><inkscape:page
@@ -54,7 +54,7 @@
        y="-538.03833"
        width="48"
        height="48"
-       id="page134952"
+       id="page3"
        inkscape:label="DynamicDataAddProperty"
        margin="0"
        bleed="0" /><inkscape:page
@@ -62,7 +62,7 @@
        y="299.53802"
        width="48"
        height="48"
-       id="page134954"
+       id="page4"
        inkscape:label="DynamicDataRemoveProperty"
        margin="0"
        bleed="0" /><inkscape:page
@@ -70,7 +70,7 @@
        y="246.56252"
        width="48"
        height="48"
-       id="page134956"
+       id="page6"
        inkscape:label="DynamicDataImportNamedConstraints"
        margin="0"
        bleed="0" /><inkscape:page
@@ -78,7 +78,7 @@
        y="169.92009"
        width="48"
        height="48"
-       id="page134958"
+       id="page7"
        inkscape:label="DynamicDataImportAliases"
        margin="0"
        bleed="0" /><inkscape:page
@@ -86,7 +86,7 @@
        y="-465.79645"
        width="48"
        height="48"
-       id="page174214"
+       id="page8"
        inkscape:label="DynamicDataCopyProperty"
        margin="0"
        bleed="0" /><inkscape:page
@@ -94,7 +94,7 @@
        y="357.0217"
        width="48"
        height="48"
-       id="page3"
+       id="page9"
        margin="0"
        bleed="0"
        inkscape:label="DynamicDataSettings" /><inkscape:page
@@ -102,7 +102,7 @@
        y="-127.48781"
        width="48"
        height="48"
-       id="page4"
+       id="page10"
        inkscape:label="DynamicDataEditEnumeration"
        margin="0"
        bleed="0" /><inkscape:page
@@ -110,7 +110,7 @@
        y="-244.88368"
        width="48"
        height="48"
-       id="page5"
+       id="page11"
        inkscape:label="DynamicDataCreateConfiguration"
        margin="0"
        bleed="0" /></sodipodi:namedview><defs

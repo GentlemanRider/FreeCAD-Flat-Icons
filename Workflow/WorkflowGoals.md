@@ -1,8 +1,4 @@
-# Inkscape workflow
-
-This document describes the workflow and best practices. (by who? for who? for what?)
-
-## Workflow goals
+# Workflow goals
 
 The aim of a unified workflow is to:
 
@@ -10,7 +6,7 @@ The aim of a unified workflow is to:
 - ensure style consistency
 - build future proof icons, with the possibility to be styled at runtime.
 
-### How do we get there?
+## How do we get there?
 
 During this first development rush I found potential to be harvested in the following built in inkscape funtions:
 
@@ -18,7 +14,7 @@ During this first development rush I found potential to be harvested in the foll
 - CSS styling
 - Batch export
 
-### What do we want to achieve by implementing CSS?
+## What do we want to achieve by implementing CSS?
 
 The idea is to use the same icon set for both dark and light themes.
 
@@ -28,11 +24,11 @@ To achieve this, there should be a common standard for CSS classes.
 
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DarkVsLightClasses.png" alt="drawing" style="width:500px;"/>
 
-### Why are we adding such level of complexity on top of an aready huge task?
+# Why are we adding such level of complexity on top of an aready huge task?
 
 To my understanding, the development of the flat icon pack has been mostly a one man show with the occasional pull request. I like the theme, want to contribute and want other to be able to join without driving the original author crazy. Scaling up with workforce requires coordination and efficent tool chains.
 
-![Sample page](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/SamplePage.PNG "Sample Page")
+See ()
 
 # Where to go next
 
