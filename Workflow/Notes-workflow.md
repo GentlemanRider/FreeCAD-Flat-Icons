@@ -1,71 +1,89 @@
 # Flat icon pack expansion campaign
 
-This file describes the (definition ongoing) workflow to develop additional icons for the Flat icons package.
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/WorkflowOverview.svg" alt="drawing" style="width:800px;"/>
 
-## Multiple pages on inkscape
+## Components description
 
-Working on all the icons for a given workbench on a single file is very handy because often we reuse elements from one commad to another. Here's how I am making it work:
+### SVG Masters
+Multi page, CSS based Inkscape files. One per workbench, add on, or whatever category makes sense.
 
-There is a 'page' tool on the left toolbar. Select it and then it's possible to add pages from the toolbar under the general menu.
-The pages can be named and the name should be consistent with the expected file name.
-_I am using the information from the tooltip at the moment, I guesss there is a more elegant option to get a list?_
+### CSS themes
+Cascading style sheet files. The classes must match the ones used in the SVG masters. For this reason, each SVG master file will contain ALL the classes.
 
-By default, the pages are added in a row with very little spacing. When the page tool is active it's possible to move them around. All the elements outside the page boxes are not exported, so it's possible to keep working versions nearby.
+### Action files
+These files (bash or Inkscape action files) contain the mapping between the SVG master and the output folders. Legacy mode (which is very handy for testing) requires different file names in some cases. This also allows to export an icon with different names and formats: for example, one for toolbar and one for tree view.
 
-### Icon preview
+### Set theme
+A script that takes a CSS file as parameter and injects it into the SVG Masters. Being them all derived from a starting document, the style will (must) be defined in the same namespace of the XML Tree. It is possible to take it further and alter the inkscape page, border and color settings so it's possible to draw directly in the preferred theme. 
 
-Unfortunately (at least on InkScape 1.2) the Icon preview function shows the first page that was created in the document. It could be overcome by naming it 'preview'
-and then moving into it the icon that we are working on / wish to see at different scales.
+### Render
+A script that calls the action files an explodes all the pages in the SVG master into the Legacy mode and QSS folders.
 
-### Export all the icons to single files
+# Development and maintenance
 
-- Select file / export from the Inkscape Menu.
-- Select 'batch export' and then 'pages' on top of the toolbox.
-- leave suffix blank, select 'plain svg' as file format.
-- Click on the folder in the export path, choose the desired output directory and filename\*
-- \*The exported files are named <filenamename>\_pageName.svg. I tried leaving it blank with no success. I need to investigate further, or create a bash script to remove this prefix.
+## Creating a package
+The bare minimum package development happens with a SVG file, derived from an existing package or from the template file. This ensures that the CSS part contains the standard classes.
 
-## General Inkscape tricks
+### Creating the scope
+The first step is to understand which icons will be part of the package. Depending on the target, there are three possible places to look at. For add ons is usually enough  to have them installed. 
 
-### handling line thickness
+#### Add-ons
+It's recommended to start from a relatively small add on to familiarize with the processes and tools.
+Navigate to the FreeCAD preference folder, then Mod/<desired_addon>. Look for SVG files in the folder structure by typing 
+    
+    find -name '*.svg' 
+    
+in the add on folder. For Dynamic Data, this is the result:
 
-The style guide imposes 1.5px on the internal detail and 3px for the outline. I gound out that there's a quick hack to make them lineout with minimal effort:
+    ./Resources/icons/Settings.svg
+    ./Resources/icons/DynamicDataCreateConfiguration.svg
+    ./Resources/icons/DynamicDataSVGLogo.svg
+    ./Resources/icons/DynamicDataLogo.svg
+    ./Resources/icons/CreateObject.svg
+    ./Resources/icons/AddProperty.svg
+    ./Resources/icons/DynamicDataPreferencesLogo.svg
+    ./Resources/icons/ImportAliases.svg
+    ./Resources/icons/CopyProperty.svg
+    ./Resources/icons/DynamicDataEditEnumerations.svg
+    ./Resources/icons/ImportNamedConstraints.svg
+    ./Resources/icons/RemoveProperty.svg
 
-- go to inkscape preferences and search 'outset'
-- set 'Inset / Outset By:' to 0.75px
-- draw all with 1.5px outline
-- copy, paste ahd then merge all the shapes that contribute to the icon outline. Set the resulting shape with no fill, 3px outline and snap it on top of the design.
-- Scale you icon to size inside the box
-- select the general outline and then Path / outset, it should line up beautifully.
+Create all the required pages in Inkscape (see Inkscape guide TBD). The page labels must match the original file names:
 
-### handling dotted lines
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/WorkflowInkscapePages.png" alt="drawing" style="width:800px;"/>
 
-There is a numeric field close to the dash parameters. Increasing it shifts the dots along the path, this is useful, for example, if there is a corner on a dotted line and we want to put one of the dots exactly on the corner.
+#### Standard icons
+It is possible to look for SVG files from the github web interface, gowever I recommend cloning the source report to your machine:
 
-## CSS
+    git clone https://github.com/FreeCAD
 
-Inkscape has the ability to move the style from the object to an embedded stylesheet in the <svg:defs> part of the file. Is is tricky to master in the beginning but once learned is gold. This could be also harvested fo runtime styling of the icons, but it needs to be tested. Let's see if icon files generated this way are rendered properly before migrating everything to CSS.
+Follow the step as per the add ons in the 
 
-The Mesh source file now has some CSS classes:
+### Importing reference material
+There can be reference material in the master file as long as it is outside the pages borders. A quick way is to navigate to the icons folder with the file manager and grab a screenshot:
 
-- MeshFillArea and MeshFillAreaDark drive the fill colors of mesh objects
-- IconOutline sets the color and default thickness to 1.5
-- ThinDotOutline sets the dash according to the style guide
-- ThickOutline sets the stroke width to 3 PX.
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DynDataRefScreenshot.png" alt="drawing" style="width:400px;"/>
 
-There will be a small refacoring of the outline classes to allow using the dots also in thick lines. I also need to style the small + / - icon in the bottom right corner since it will be part of the 'dynamic' color change' for using the icons on light themes.
+A more tedious way is to grab the actual svg files and drag them into the inkscape pages. This requires more work but allows to export incomplete sets (the original icons will be exported if not done yet).
 
-### Where I can find the CSS in Inkscape?
+### Creating the icons
+Refer to the Style Guide. Try to reuse shapes from the (patterns file TBD) wherever possible. Use only the included classes for outlines. It's okay to create classes for fill colors, as long as they are consistent with the style guide and have only fill attributes. 
 
-open the XML editor, scroll all the way up to the beginning of the file
+### Exporting the icons
+Select file / export from the Inkscape menu, then batch export trom the tabs on top of the export toolbox. Give the expott a short name since the result will be name+pagename
 
-    <svg:defs id="MeshDefs">
-    <svg:style id="GR-Mesh>
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DynDataPageExport.png" alt="drawing" style="width:400px;"/>
 
-## TODO
+leave suffix blank, select 'plain svg' as file format. Click on the folder in the export path, choose the desired output directory and filename (2 letters). Navigate to the output folder and trim away the filenema prexif with:
 
-- Create an empty template with some examples and the style pallette to copy colors from
-- test if embedding CSS renders properly as is, and refine the workfloww accordingly (class names, etc).
-- implement some work tracking metodology (trello? github project?) and let's make clear who is working on what
+    rename 's/^...//' *.svg
 
-Don't hesitate to ping me (GentlemanRider) here, on the discord channel or FreeCAD forum.
+If you with to remove more characters, add dots.
+
+### Preview your icons live on FreeCAD
+Download the (legacy mode folder) and add your files to the content. Refer to the Icon Theme add on documentation for futher details.
+
+
+
+
+
