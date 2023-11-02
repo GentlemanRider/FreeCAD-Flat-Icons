@@ -37,7 +37,7 @@ There will be two steps:
 - include all the existing icons into master files (CreateIconSet.md)
 - refactor them with CSS styles.
 
-Grouping them can be done as soon as we want, CSS refactoring is postponed until there is some kind of rigidity and peer review in the CSS classes definition.
+Grouping them can be done as soon as we want, CSS refactoring is postponed until there is some kind of rigidity and peer review in the design patterns and CSS classes definition.
 
 ## Scripting
 
@@ -50,7 +50,7 @@ The package creation should be automated to the greatest possible extent. It sou
 
 ### Centralized CSS (Set theme)
 
-Inkscape includes the CSS part in the master files. They should all derive from a common template and no manual work should be required to make them ready. However if this is not the case, they can be manually fixed by changing 2 IDs from the XML editor.
+Inkscape includes the CSS part in the header section of the files. They should all derive from a common template and no manual work should be required to make them ready. However if this is not the case, they can be manually fixed by changing 2 IDs from the XML editor.
 
 The def part shold be called _FlatIconDefs_ and the style entry should be called _FlatIconsStyle_
 
@@ -62,23 +62,29 @@ The style entry in inkscape is embraced in a ![CDATA[]] construct:
         .ThinDotOutline { stroke-dasharray:0.1, 2.5;  stroke-linecap:round;
     }]]></style>
 
-A python script will load the CSS file given as parameter, add the CDATA header and footer, inject it on the XML tree of all SVG files in a given directory.
+A python script will load the CSS file given as parameter, add the CDATA header and footer, inject it on the XML tree of all SVG files in a given directory. This can happen in the master files or utput files. 
 
 Changing theme should happen with a single command:
 
     python3 cssInjector.py dark.css
 
-### Automated export
+### Building action files
+The inkscape CLI does not support pages yet, so it will be necessary to add geometry for placeholders. Since the files are on XML format, it should be possible to implement a python script that will modify the master svg file:
 
-This can be pure bash, with a series of entries like this, one for each master file:
+- scans the XML tree and fetches the label and coordinates from all the inkscape:page nodes
+- creates a series of rectangles with matching IDs, size and placement. Those rectangles will all belong to a specific class that makes them invisible. If manual adjustment is necessary, altering the fill-opacity attribute in that class makes them visible all together.
+- all the references will be on a specific, hidden and locked layer to they won't mess the design process.
 
-    inkscape --without-gui --actions-file=DynamicData.iact DynamicData.svg
+While it's looping through the pages, it will create the action file as well.
 
-The Inkscape action file will contain entries for each page:
+It is possible to manually fine tune the action files if necessary, for example exporting the sameicon with different names or even different file formats. 
 
-    "export-id:page01; export-id-only; export-filename:DynamidDataLogo.svg; export-do;"
-    "export-id:page02; export-id-only; export-filename:DynamidCreateObject.svg; export-do;"
+### Batch export
+After applying the desired CSS theme to the master files, having all the action files created, an iteration of 
 
-Building the actual package should happen calling a single command:
+    inkscape --actions-file=setName.iact setName.svg
 
-    ./build.sh
+for all the master files will produce all the single icons.
+
+
+
