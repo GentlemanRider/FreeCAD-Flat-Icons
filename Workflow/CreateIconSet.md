@@ -34,7 +34,7 @@ Create all the required pages in Inkscape (see Inkscape guide TBD). The page lab
 
 ### Standard icons
 
-It is possible to look for SVG files from the github web interface, gowever I recommend cloning the source report to your machine:
+It is possible to look for SVG files from the github web interface, however I recommend cloning the source report to your machine:
 
     git clone https://github.com/FreeCAD
 
@@ -48,13 +48,15 @@ There can be reference material in the master file as long as it is outside the 
 
 A more tedious way is to grab the actual svg files and drag them into the inkscape pages. This requires more work but allows to export incomplete sets (the original icons will be exported if not done yet).
 
+An alternative way to export incomplete sets is to use the selection in _batch export_ toolbox
+
 ### Creating the icons
 
-Refer to the Style Guide. Try to reuse shapes from the (patterns file TBD) wherever possible. Use only the included classes for outlines. It's okay to create classes for fill colors, as long as they are consistent with the style guide and have only fill attributes.
+Refer to the Style Guide. Try to reuse shapes from the (patterns file TBD) wherever possible. Use only the included classes for outlines. It's okay to create classes for fill colors, as long as they are consistent with the style guide and have only fill attributes. (see CSSClasses.md)
 
 ### Exporting the icons
 
-Select _file / export_ from the Inkscape menu, then _batch export_ trom the tabs on top of the export toolbox. Give the export a short name since the result will be name+pagename
+Select _file / export_ from the Inkscape menu, then _batch export_ trom the tabs on top of the export toolbox. Give the export a short name since the result will be *name_pagename*
 
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DynDataPageExport.png" alt="drawing" style="width:400px;"/>
 

@@ -1,10 +1,10 @@
 # Introducion
-The defaault inkscape behavior when copy /paste CSS style elements is to embed the style property on the pasted element syyle field. This overrides the global definition and prevents pasted elements from updating the style properlu when modifying the CSS classes. See (PrerequisitesAndSettings.md) in order to tweak the inkscape setting to disable this behavior.
+The defaault inkscape behavior when copy /paste CSS style elements is to embed the style property on the pasted element syyle field. This overrides the global definition and prevents pasted elements from updating the style properly when modifying the CSS classes. See (PrerequisitesAndSettings.md) in order to tweak the inkscape setting to disable this behavior.
 
 Ideally, all the paths should not have element specific style attributes an rely on being members of the proper classes for styling. However, if the needs for overriding some style aspects arises, it is tolerated if it not conflicts with the classes attributes. 
 
 # References
-This document goes into the CSS implementation detail, refer to the  style guide for design choices and patterns.
+This chapter goes into the CSS implementation detail, refer to the  style guide for design choices and patterns.
 
 # Common classes for all the icon sets
 
@@ -19,24 +19,24 @@ This class is applied to all the icon outlines. It defines stroke color and widt
 ### ThickOutline
 This class is applied together with *IconOutline* to the general contour and sets a thicker stroke.
 
-    .ThickOutline { stroke-width:3; }
+    .ThickOutline { stroke-width:3 }
 
 ### ThinDotOutline
 This class is applied together with *IconOutline* to inner dotted lines.
 
-    .ThinDotOutline { stroke-dasharray:0.1, 2.5;  stroke-linecap:round; }
+    .ThinDotOutline { stroke-dasharray:0.1, 2.5;  stroke-linecap:round }
 
 ## Filled areas
 
 ### OutlineAsFill
 This class is used to fill areas with outline color. For example, the additive - subctractive corner indication shape.
 
-    .OutlineAsFill { fill: #f5f4f4; }
+    .OutlineAsFill { fill: #f5f4f4 }
 
 ### BgFillArea
-This class is used to fill areas with a color that maximizes contrast with the outline. For example, the additive - subctractive corner inner symbol.
+This class is used to fill areas with a color that maximizes contrast with the outline. For example, the additive - subctractive corner inner symbol. A similar effect can be achieved by subtracting the desired area from all the elements and let the app backgroung to bleed through. However, this approach might complicate the process in some cases.
 
-    .BgFillArea { fill: #495057; }
+    .BgFillArea { fill: #495057 }
 
 ### AdditiveFillArea
 This class is used for icons that add items, volume to solids.
@@ -46,12 +46,12 @@ This class is used for icons that add items, volume to solids.
 ### SubtractiveFillArea
 This class is used for icons that remove items, volume to solids.
 
-    .SubtractiveFillArea { fill: #f03e3e; }
+    .SubtractiveFillArea { fill: #f03e3e }
 
 ### IntersectFillArea
-This color is used for intersections, datum planes?
+This color is used for intersections and datum planes
 
-    .IntersectFillArea { fill: #4c6ef5; }
+    .IntersectFillArea { fill: #4c6ef5 }
 
 # Icon set specific classes
 When a new icon set is started, it is possible to create specifiv classes for fill colors. Once the package is included in the master set for automated styling and rendering, it necessary to coordinate with the package maintainers to ensure the global CSS is updated with the relevant classes and the master file is properly integrated in the toolchain. 

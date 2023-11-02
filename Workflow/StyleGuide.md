@@ -3,6 +3,7 @@
 
 # Design language
 (add screenshot of some icons from different WBs)
+
 The icons should have a common look and feel that can be obtained through the definition of policies and constraints.
 - fixed outline thickness and color, with a thicker outline on the shapes contour
 - no gradients, nowhere.
@@ -46,7 +47,7 @@ Inkscape and QT both support CSS styling on SVG elements. This is beneficial bec
 ## Flat slanted perspective
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DynamicDataExamples.png" alt="drawing" style="width:800px;"/>
 
-- dynamic data workbench icon
+- dynamic data workbench icon.
 - add property icon (falls into the additive style pattern)
 - delete property icon (falls into the subtractive style pattern)
 - copy property (falls close to copypaste command)
