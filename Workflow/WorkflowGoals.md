@@ -55,7 +55,7 @@ The [style guide](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_
 
 The [Prerequisites and settings](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/PrerequisitesAndSettings.md) contains the reference software versions and settings. _Some Inkscape settings are crucial to work with CSS properly_.
 
-The instructions for [how to implement an icon set](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/CreatePackage.md) dives into the CSS / multipage inkscape file handling and how to find the original icons.
+The instructions for [how to implement an icon set](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/CreateIconSet.md) dives into the CSS / multipage inkscape file handling and how to find the original icons.
 
 The [CSS classes reference](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/CssClasses.md) goes into details of what classes are used where, how and why. How to create new ones if needed, how to keep it all together.
 
