@@ -14,9 +14,20 @@ During this first development rush I found potential to be harvested in the foll
 - CSS styling
 - Batch export
 
+## Terminology
+
+- Icon set: a groups of icons, being from the same workbench  / add on if they are small (Mesh, spreadsheet for example) or parts of them (Sketcher Constraints, Sketcher Geometry).
+- Icon package: the collection of all the exported icons
+- Master file: a multipage SVG file that includes an icon set
+- Batch export: exporting a single icon set from Inkscape GUI
+- Action file: a file that instructs Inkscape what to render from CLI
+- Package export: exporting several icon sets from the respective master files automatically (uses action files)
+- CSS injection: automated CSS replacement on all the master files.
+- Package render: the combination of CSS injection amd package export 
+
 ## What do we want to achieve by implementing CSS?
 
-The idea is to use the same icon set for both dark and light themes.
+The idea is to use the same icon package for both dark and light themes.
 
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DarkVsLightGoal.png" alt="drawing" style="width:400px;"/>
 
@@ -26,9 +37,14 @@ To achieve this, there should be a common standard for CSS classes.
 
 # Why are we adding such level of complexity on top of an aready huge task?
 
-To my understanding, the development of the flat icon pack has been mostly a one man show with the occasional pull request. I like the theme, want to contribute and want other to be able to join without driving the original author crazy. Scaling up with workforce requires coordination and efficent tool chains.
+The sheer quantity of workbenches, modules and functions requires roles, coordination and efficent tool chains. There is also requirement for a quite wide skill set to do it, ranging from digging the source code, understanding svg, css, xml, scripting language, QCC compiling. I want to give the possibility to people that don't have the whole skill set to be able to contribute. For example: a brilliant Inkscape designer that has no clue of all the other aspects should be able to join and get support. He shouldn't forcefully dig on the other aspects (unless wants to): he should be put in a condition where he can put his skill at work immediately.
 
-See ()
+
+
+- Source code digger: a person who is familiar with the FreeCAD source and helps understanding which file goes rehdered where. Sometimes it's not trivial. Supports building templates for master files and action files. 
+- Icon set artist: a person that takes charge of a workbench and draws symbols the corresponding master file according to the (style guide) and (CSS conventions)
+- Tooling developer: a person that builds, maintains and documents scripts and best practices
+- CSS maintainer: a person that ensures that the global CSS files are in sync with the master files. He also renders the package. 
 
 # Where to go next
 

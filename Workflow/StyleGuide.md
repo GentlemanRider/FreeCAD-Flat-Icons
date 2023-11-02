@@ -38,25 +38,7 @@ Operations that remove items (or volume from solids) should be red. The paths mu
 
 Operations that create 'bigger' things can be differentiated using a centered "+" icon.
 
-## Terminology
-Package: It is a good practice to work on icon sets, being them workbences / add ons if they are simple (Mesh, spreadsheet for example) or parts of them (Sketcher Constraints, Sketcher Geometry). A collection of icons is called a package.
-
 # Implementation details
-## Inkscape preferences
-### Document settings
-Page settings for a new file from scratch (not recommended)
-
-<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DocumentSetupOriginal.png" alt="drawing" style="width:400px;"/>
-
-### CSS handling during copy / paste
-By default, Inkscape replicates the class style into pasted elements. This needs to be clean afterwards and it's a pain. Selecting this option disables this behavior and makes working with CSS way easier.
-
-<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/InkscapeSettingClipboard.png" alt="drawing" style="width:600px;"/>
-
-### Path inset / outset size
-This is required for easy handling of the outer strokes.
-
-<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/InkscapeSettingStep.png" alt="drawing" style="width:600px;"/>
 
 ## CSS driven styles
 Inkscape and QT both support CSS styling on SVG elements. This is beneficial because it enforces style consistency and also allows to alter the style at a later stage in a centralized manner. (if you are thinking about a future light version, you are right). The provided (path and filename) CSS file includes all the classes referenced in this guide.

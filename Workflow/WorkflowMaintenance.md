@@ -66,7 +66,7 @@ A python script will load the CSS file given as parameter, add the CDATA header 
 
 Changing theme should happen with a single command:
 
-    python3 setStyle.py dark.css
+    python3 cssInjector.py dark.css
 
 ### Automated export
 
