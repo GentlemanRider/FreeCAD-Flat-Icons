@@ -32,9 +32,9 @@ Import icons should have a green arrow on the left pointing to the center. The p
 Export icons should have a red arrow on the left pointing to the border. The path must have the *ExportArrow* class and empty style attribute.
 
 ### Additive and subtractive operations
-Operations that add items (or volume to solids) should be green. The paths must have the *AdditiveFill* class. They should also have the "+" icon on the bottom left corner.
+Operations that add items (or volume to solids) should be green. They should have the "+" icon on the bottom left corner.
 
-Operations that remove items (or volume from solids) should be red. The paths must have the *SubtractiveFill* class. They should also have the "-" icon on the left corner.
+Operations that remove items (or volume from solids) should be red. They should have the "-" icon on the left corner.
 
 Operations that create 'bigger' things can be differentiated using a centered "+" icon.
 

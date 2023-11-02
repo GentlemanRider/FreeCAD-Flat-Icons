@@ -1,6 +1,6 @@
-# Creating a package
+# Creating an icon set
 
-The bare minimum package development happens with a SVG file, derived from an existing package or from the template file. This ensures that the CSS part contains the standard classes.
+The bare minimum package development happens with a master SVG file, derived from an existing package or from the template file. This ensures that the CSS part contains the standard classes.
 
 ## Creating the scope
 
@@ -38,7 +38,7 @@ It is possible to look for SVG files from the github web interface, gowever I re
 
     git clone https://github.com/FreeCAD
 
-Follow the step as per the add ons in the
+Follow the step as per the add ons in the previous section.
 
 ### Importing reference material
 
@@ -54,11 +54,11 @@ Refer to the Style Guide. Try to reuse shapes from the (patterns file TBD) where
 
 ### Exporting the icons
 
-Select file / export from the Inkscape menu, then batch export trom the tabs on top of the export toolbox. Give the expott a short name since the result will be name+pagename
+Select _file / export_ from the Inkscape menu, then _batch export_ trom the tabs on top of the export toolbox. Give the export a short name since the result will be name+pagename
 
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DynDataPageExport.png" alt="drawing" style="width:400px;"/>
 
-leave suffix blank, select 'plain svg' as file format. Click on the folder in the export path, choose the desired output directory and filename (2 letters). Navigate to the output folder and trim away the filenema prexif with:
+leave suffix blank, select _plain svg_ as file format. Click on the folder in the export path, choose the desired output directory and filename (2 letters). Navigate to the output folder and trim away the filename prefix with:
 
     rename 's/^...//' *.svg
 
@@ -66,6 +66,8 @@ If you with to remove more characters, add dots.
 
 ### Preview your icons live on FreeCAD
 
-Download the (legacy mode folder) and add your files to the content. Refer to the Icon Theme add on documentation for futher details.
+The icon theme add-on allows to use the icons in the actual program in legacy mode by just copying all of them into a specific folder. To be recognized, it needs the presence of a folder called license (_at least on my machine_). The addon github page has documentation for that.
+
+Download the (legacy mode folder TBD) and add your files to the content. Refer to the Icon Theme add on documentation for futher details.
 
 _Note: the default setting directory is /home/user/.FreeCAD. Running appimage on Ubuntu 22 is located in /home/user/.local/share/FreeCAD_
