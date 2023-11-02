@@ -1,16 +1,16 @@
 # Flat icon pack: a mid term maintenance plan
 
-<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/WorkflowOverview.svg" alt="drawing" style="width:800px;"/>
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/WorkflowOverview.svg" alt="original to flat logo" style="width:800px;"/>
 
 ## Components description
 
 ### SVG Masters
 
-Multi page, CSS based Inkscape files. One per workbench, add on, or whatever category makes sense. See (CreatePackage.md) for instructions on how to implement a package.
+Multi page, CSS based Inkscape files. One per workbench, add on, or whatever category makes sense. 
 
 ### CSS themes
 
-Cascading style sheet files. The classes must match the ones used in the SVG masters. For this reason, each SVG master file will contain ALL the classes.
+Cascading style sheet files. The classes must match the ones used in the SVG masters. For this reason, each SVG master file will contain ALL the classes and we have a [CSS classes reference](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/CssClasses.md).
 
 ### Action files
 
@@ -28,7 +28,7 @@ A script that calls the action files an explodes all the pages in the SVG master
 
 ## Adding icons
 
-refer to (CreateIconSet.md)
+See [how to implement an icon set](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/CreatePackage.md) for detailed instructions, and follow the [style guide](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/StyleGuide.md).
 
 ## Porting existing stuff
 
@@ -48,7 +48,7 @@ There will be necessity to generate the package in the following scenarios:
 
 The package creation should be automated to the greatest possible extent. It sould not be necessary to manually open all the master files manually and batch export from Inlscape GUI. Then redo with different CSS when there will be more styles.
 
-### Centralized CSS (Set theme)
+### Centralized CSS
 
 Inkscape includes the CSS part in the header section of the files. They should all derive from a common template and no manual work should be required to make them ready. However if this is not the case, they can be manually fixed by changing 2 IDs from the XML editor.
 
@@ -77,7 +77,9 @@ The inkscape CLI does not support pages yet, so it will be necessary to add geom
 
 While it's looping through the pages, it will create the action file as well.
 
-It is possible to manually fine tune the action files if necessary, for example exporting the sameicon with different names or even different file formats. 
+It is possible to manually fine tune the action files if necessary, for example exporting the same icon with different names or even different file formats. 
+
+_Note: during icon set development, batch export and legacy mode usually get the work done. The action files are meant as a step where a icon set is done and enter the pool for automated rendering._
 
 ### Batch export
 After applying the desired CSS theme to the master files, having all the action files created, an iteration of 

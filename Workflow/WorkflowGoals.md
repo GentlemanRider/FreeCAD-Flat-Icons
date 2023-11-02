@@ -2,7 +2,7 @@
 
 The aim of a unified workflow is to:
 
-- simplify icons creations and manintainability
+- simplify icons creation and maintenance
 - ensure style consistency
 - build future proof icons, with the possibility to be styled at runtime and / or easily exported using different themes.
 
@@ -45,12 +45,16 @@ To achieve this, there should be a common standard for CSS classes.
 
 # Why are we adding such level of complexity on top of an already huge task?
 
-The sheer quantity of workbenches, modules and functions requires roles, coordination and efficent tool chains. There is also requirement for a quite wide skill set to do it, ranging from digging the source code, understanding svg, css, xml, scripting language, QCC compiling. I want to give the possibility to people that don't have the whole skill set to be able to contribute. For example: a brilliant Inkscape designer that has no clue of all the other aspects should be able to join and get support. He shouldn't forcefully dig on the other aspects (unless wants to): he should be put in a condition where he can express his skill.
+The sheer quantity of workbenches, modules and functions requires roles, coordination and efficent tool chains. 
 
-- **Source code digger**: a person who is familiar with the FreeCAD source and helps understanding which file goes rendered where. Sometimes it's not trivial. Supports building master file templates and tuning action files
-- **Icon set artist**: a person that takes charge of a workbench and draws symbols in the corresponding master file according to the style guide and CSS conventions
-- **Tooling developer**: a person that builds, maintains and documents scripts and best practices
-- **CSS maintainer**: a person that ensures that the global CSS files are in sync with the master files. He also renders the package(s) using the scripts. 
+The required skill set to approach the task ranges from digging the source code, understanding svg, css, xml, scripting languages, qss. Very few got them all.
+
+I want to give the possibility to people that don't have the whole skill set to be able to contribute. For example: a brilliant Inkscape designer that has no clue of all the other aspects should be able to join and get support. He shouldn't forcefully dig on the other aspects (unless wants to): he should be put in a condition where he can express his skill.
+
+- **Source code analysis**: understanding which file goes rendered where. Sometimes it's not trivial. Support building master file templates and tuning action files
+- **Icon set drawing**: taking charge of a workbench and draws symbols in the corresponding master file according to the style guide and CSS conventions
+- **Tooling development**: build, maintain and document scripts and best practices
+- **CSS maintaining**: Ensuring that the global CSS files are in sync with the master files. Rendering the package(s) using the scripts. 
 
 # Where we are
 
@@ -70,9 +74,9 @@ A description of the foreeseen [maintenance workflow](https://github.com/Gentlem
 
 - harmonize CSS definitions in the current under development sets (Mesh, Dynamic Data, Spreadsheet, Arch)
 - build a svg with the style pattern elements (import export arrows, etc) that serves as reference
-- consolidate CSS classes and design patterns
-- Deine a way to clearly state if somebody has taken charge of a given workbench. Let's avoid doing the work twice
-- Prepare a starter kit and release it into the wild. (If we manage to go ahead with the style guide, we can think of building Master Templates and do a call for degigners. At Fosdem?)
+- consolidate CSS classes and the main design patterns
+- Define a way to clearly state if somebody has taken charge of a given workbench. Let's avoid doing the work twice
+- Prepare a starter kit and release it into the wild. (If we manage to go ahead with the style guide, we can think of a call for degigners. At Fosdem24?)
 - merge the original single files into multipage documents (per module / workbench)
 - refactor the original symbols by deleting style attributes from the elements and using classes instead
 

@@ -42,7 +42,7 @@ Operations that create 'bigger' things can be differentiated using a centered "+
 # Implementation details
 
 ## CSS driven styles
-Inkscape and QT both support CSS styling on SVG elements. This is beneficial because it enforces style consistency and also allows to alter the style at a later stage in a centralized manner. (if you are thinking about a future light version, you are right). The provided (path and filename) CSS file includes all the classes referenced in this guide.
+Inkscape and QT both support CSS styling on SVG elements. This is beneficial because it enforces style consistency and also allows to alter the style at a later stage in a centralized manner. (if you are thinking about a future light version, you are right). See the [CSS classes reference](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/CssClasses.md) for details.
 
 ## Flat slanted perspective
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/DynamicDataExamples.png" alt="drawing" style="width:800px;"/>
