@@ -73,10 +73,10 @@ A description of the foreeseen [maintenance workflow](https://github.com/Gentlem
 ## Where to go next
 
 - harmonize CSS definitions in the current under development sets (Mesh, Dynamic Data, Spreadsheet, Arch)
-- build a svg with the style pattern elements (import export arrows, etc) that serves as reference
+- build a svg with the style pattern elements (import export arrows, etc) that serves as reference for new sets
 - consolidate CSS classes and the main design patterns
 - Define a way to clearly state if somebody has taken charge of a given workbench. Let's avoid doing the work twice
-- Prepare a starter kit and release it into the wild. (If we manage to go ahead with the style guide, we can think of a call for degigners. At Fosdem24?)
+- Prepare a starter kit and release it into the wild. (If we manage to go ahead with the style guide, we can think of a call for designers / developers. At Fosdem24?)
 - merge the original single files into multipage documents (per module / workbench)
 - refactor the original symbols by deleting style attributes from the elements and using classes instead
 
