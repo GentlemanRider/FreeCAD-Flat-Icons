@@ -59,14 +59,27 @@ When representing a physical flat object (a notebook page, in the example above)
 - Please keep the same angle for visual consistency when icons from different packages appears at the same time on the screen.
 - Also, try to always have the right side higher.
 
-## Icon outlines
+## Not everything works as totally flat
+
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/FileMenu.png" alt="drawing" style="width:800px;"/>
+The new file seems to work, save and open have just a hint of perspective, the printer works better if presented as a small solid.
+
+## Icon outlines and contour
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/LineThicknessOriginal.png" alt="drawing" style="width:400px;"/>
 The standard outline for the element is 1.5 px. The paths  shoud not have any stle property and belong to the *IconOutline* class.
-A thicker outline of 3px across the overall shape is used to increase readability at small scales. The overall outline should match the regular outline on the inside, so it needs to be offset. To achieve this:
+A thicker contour of 3px across the overall shape is used to increase readability at small scales. The contour should match the regular outline on the inside, so it needs to be offset. To achieve this:
 
 - select all the shapes then copy, paste and merge them (*ctrl + c, v, +*).
 - set the resulting path with no style and add the *IconOutline* and *ThickOutline* classes.
 - snap the path on top of the icon
-- select *path / outset* from the Inkscape menu.
-  
+- select *path / outset* from the Inkscape menu. See [prerequisites and settings](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/PrerequisitesAndSettings.md) for the required inkscape configuration for this step.
 
+## Wireframe geometry
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/WireframeAnatomy.PNG" alt="drawing" style="width:800px;"/>
+
+When edges from the back of a three dimensional shape are visible, they should be slightly darker to leave the front part 'pop' and give a better perception of depth.
+
+## Parametric contour
+<img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/ParametricContour.PNG" alt="drawing" style="width:600px;"/>
+
+Here the overall contour is renderend as transparent purple for clarity. Having a specific class for that allows to set a thinner outline on the CSS class and render 'thin' variations of the icon set.
