@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 48"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="FlatIconDefs"><style
+       id="FlatIconStlyle"><![CDATA[
+.IconOutline { 
+    fill:none;
+    stroke:#404040;
+    stroke-linecap:round;
+    stroke-width:1;
+}
+.DotOutline { stroke-dasharray:0.1, 2.5; }
+.ThickOutline { 
+    stroke-linejoin:miter;
+    stroke-miterlimit:3;
+    stroke-width:1;
+}
+.GenericFill { 
+    fill:#c0c0c0;
+}
+.GenericFillDark { fill: #6f758e }
+.OutlineAsFill { 
+    fill:#404040;
+}
+.BgFill { 
+    fill:#f0f0f0;
+}
+.SolidFill { fill:#3769ff }
+.MeshFill { fill:#7950f2; }
+.MeshFillDark { fill:#6b4cc8; }
+.DynDataFill { fill:#aea72c; }
+.DatumFill { 
+    fill:#aacaca;
+}
+.DatumOutline { stroke:#15aabf; }
+.PartDesignFill { 
+    fill:#bacaf0;
+}
+.TransformFill { 
+    fill:#bafaba;
+}
+.AdditiveFill { 
+    fill:#bafaba;
+}
+.SubtractiveFill { 
+    fill:#fababa;
+}
+.IntersectFill { fill: #4c6ef5; }
+.ImportFill { fill:#40c057; }
+.ExportFill { fill:#f03e3e; }
+.ViewFill { fill: #76A8F9 }
+.SketchFill { fill: #f5f4f4; }
+.SketckOutline { stroke:#f03e3e; }
+.SpreadsheetFill { fill: #868e96; }
+.SpreadsheetLines { stroke:#495057; }
+.PlaceHolder { fill: #555555; fill-opacity: 1; }
+]]></style></defs><g
+     id="layer1"
+     style="display:none"
+     transform="translate(-937.32683,-1384.2191)">&#10;     sodipodi:insensitive=&quot;true&quot;&#10;     style=&quot;display:none&quot;&gt;<rect
+   width="48"
+   height="48"
+   class="PlaceHolder"
+   id="PH_PartDesign_SubtractiveEllipsoid"
+   x="937.32684"
+   y="1384.2191" /> </g><g
+     id="layer2"
+     transform="translate(-937.32683,-1384.2191)"
+     style="display:inline"><path
+       id="ellipse2485-0"
+       class="IconOutline  SubtractiveFill"
+       d="m 976.53727,1391.8732 a 14.469208,22.323217 42.050307 0 1 -5.41068,26.5622 14.469208,22.323217 42.050307 0 1 -25.46973,5.6426 14.469208,22.323217 42.050307 0 1 5.41067,-26.5621 14.469208,22.323217 42.050307 0 1 25.46974,-5.6427 z" /><path
+       id="ellipse2485-9-6"
+       class="IconOutline  ThickOutline"
+       d="m 968.31063,1388.0273 c -4.82744,0.1512 -9.40609,2.2145 -13.26106,5.0263 -4.74043,3.4744 -8.6214,8.167 -11.00113,13.5501 -1.72595,3.93 -2.66832,8.3868 -1.72336,12.6398 0.63771,2.8543 2.34714,5.5202 4.89977,7.0117 2.91083,1.7752 6.52686,1.9749 9.80534,1.3043 5.02567,-1.0262 9.54399,-3.8144 13.27231,-7.2692 4.6586,-4.3763 8.30116,-10.046 9.57801,-16.3639 0.80675,-4.0401 0.43861,-8.6271 -2.24137,-11.9309 -1.80349,-2.2285 -4.5496,-3.5566 -7.37609,-3.8665 -0.64417,-0.082 -1.30388,-0.071 -1.95242,-0.1017 z" /><path
+       d="m 945.45003,1424.0811 c 6.5742,2.9655 36.08337,-22.3443 31.68172,-31.6867"
+       id="path341-1"
+       class="IconOutline  DotOutline" /><path
+       d="m 951.0011,1397.9464 c -1.75036,9.2221 12.33905,26.6171 20.57957,20.5826"
+       id="path1054-5"
+       class="IconOutline  DotOutline" /><g
+       id="g117-2-4-2-5"
+       transform="translate(1149.9567,670.49577)"><rect
+         id="rect375-7-1-6-5-6-4"
+         width="15"
+         height="15"
+         x="-179.6299"
+         y="746.72333"
+         rx="3.9999998"
+         ry="3.9999998"
+         class="OutlinesFill  OutlineAsFill" /><rect
+         id="rect984-7-9-0-1-1-7"
+         width="10"
+         height="3"
+         x="-177.12991"
+         y="752.72333"
+         class="BgFill" /></g></g></svg>

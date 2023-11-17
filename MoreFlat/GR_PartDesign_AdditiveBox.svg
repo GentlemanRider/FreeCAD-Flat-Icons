@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 48"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="FlatIconDefs"><style
+       id="FlatIconStlyle"><![CDATA[
+.IconOutline { 
+    fill:none;
+    stroke:#404040;
+    stroke-linecap:round;
+    stroke-width:1;
+}
+.DotOutline { stroke-dasharray:0.1, 2.5; }
+.ThickOutline { 
+    stroke-linejoin:miter;
+    stroke-miterlimit:3;
+    stroke-width:1;
+}
+.GenericFill { 
+    fill:#c0c0c0;
+}
+.GenericFillDark { fill: #6f758e }
+.OutlineAsFill { 
+    fill:#404040;
+}
+.BgFill { 
+    fill:#f0f0f0;
+}
+.SolidFill { fill:#3769ff }
+.MeshFill { fill:#7950f2; }
+.MeshFillDark { fill:#6b4cc8; }
+.DynDataFill { fill:#aea72c; }
+.DatumFill { 
+    fill:#aacaca;
+}
+.DatumOutline { stroke:#15aabf; }
+.PartDesignFill { 
+    fill:#bacaf0;
+}
+.TransformFill { 
+    fill:#bafaba;
+}
+.AdditiveFill { 
+    fill:#bafaba;
+}
+.SubtractiveFill { 
+    fill:#fababa;
+}
+.IntersectFill { fill: #4c6ef5; }
+.ImportFill { fill:#40c057; }
+.ExportFill { fill:#f03e3e; }
+.ViewFill { fill: #76A8F9 }
+.SketchFill { fill: #f5f4f4; }
+.SketckOutline { stroke:#f03e3e; }
+.SpreadsheetFill { fill: #868e96; }
+.SpreadsheetLines { stroke:#495057; }
+.PlaceHolder { fill: #555555; fill-opacity: 1; }
+]]></style></defs><g
+     id="layer1"
+     style="display:none"
+     transform="translate(-553.32674,-904.2191)">&#10;     sodipodi:insensitive=&quot;true&quot;&#10;     style=&quot;display:none&quot;&gt;<rect
+   width="48"
+   height="48"
+   class="PlaceHolder"
+   id="PH_PartDesign_AdditiveBox"
+   x="553.32684"
+   y="904.21912" /> </g><g
+     id="layer2"
+     transform="translate(-553.32674,-904.2191)"
+     style="display:inline"><g
+       id="g107"><path
+         d="m 595.05259,945.78862 v -26.7082 l -8.18387,-8.77798 h -27.23037 v 26.95768 l 8.49775,8.57072 z"
+         id="path1390-81-6"
+         class="AdditiveFill" /><path
+         id="path1807-9-3-1"
+         class="IconOutline"
+         d="m 568.09863,919.38463 -7.81476,-8.32441 m 34.75001,8.17231 -26.91653,-10e-6 m 0,0 v 26.75043 m 26.91639,-0.0421 v -26.70823 l -8.18372,-8.77799 h -27.2304 v 26.95768 l 8.49773,8.57074 z" /><path
+         id="path1390-81-6-2"
+         class="IconOutline  ThickOutline"
+         d="m 558.86914,910.45508 c 0,9.08854 0,18.17708 0,27.26562 2.97839,3.00403 5.95713,6.00772 8.93555,9.01172 9.32617,-0.0136 18.65234,-0.0272 27.97851,-0.043 0,-9.25065 0,-18.5013 0,-27.75195 -2.8682,-3.07834 -5.73792,-6.15529 -8.60742,-9.23242 -9.43555,0 -18.87109,0 -28.30664,0 0,0.25 0,0.5 0,0.75 z" /><g
+         id="g117-2-4-6-7"
+         transform="translate(765.95665,190.49577)"><rect
+           id="rect375-7-1-6-5-9-4"
+           width="15"
+           height="15"
+           x="-179.6299"
+           y="746.72333"
+           rx="3.9999998"
+           ry="3.9999998"
+           class="OutlinesFill  OutlineAsFill" /><rect
+           id="rect984-7-9-0-1-3-4"
+           width="10"
+           height="3"
+           x="-177.12991"
+           y="752.72333"
+           class="BgFill" /><rect
+           id="rect984-3-5-9-6-0-74-3"
+           width="10"
+           height="3"
+           x="749.22333"
+           y="170.62991"
+           transform="rotate(90)"
+           class="BgFill" /></g></g></g></svg>

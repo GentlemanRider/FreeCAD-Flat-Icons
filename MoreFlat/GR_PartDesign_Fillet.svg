@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 48"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="FlatIconDefs"><style
+       id="FlatIconStlyle"><![CDATA[
+.IconOutline { 
+    fill:none;
+    stroke:#404040;
+    stroke-linecap:round;
+    stroke-width:1;
+}
+.DotOutline { stroke-dasharray:0.1, 2.5; }
+.ThickOutline { 
+    stroke-linejoin:miter;
+    stroke-miterlimit:3;
+    stroke-width:1;
+}
+.GenericFill { 
+    fill:#c0c0c0;
+}
+.GenericFillDark { fill: #6f758e }
+.OutlineAsFill { 
+    fill:#404040;
+}
+.BgFill { 
+    fill:#f0f0f0;
+}
+.SolidFill { fill:#3769ff }
+.MeshFill { fill:#7950f2; }
+.MeshFillDark { fill:#6b4cc8; }
+.DynDataFill { fill:#aea72c; }
+.DatumFill { 
+    fill:#aacaca;
+}
+.DatumOutline { stroke:#15aabf; }
+.PartDesignFill { 
+    fill:#bacaf0;
+}
+.TransformFill { 
+    fill:#bafaba;
+}
+.AdditiveFill { 
+    fill:#bafaba;
+}
+.SubtractiveFill { 
+    fill:#fababa;
+}
+.IntersectFill { fill: #4c6ef5; }
+.ImportFill { fill:#40c057; }
+.ExportFill { fill:#f03e3e; }
+.ViewFill { fill: #76A8F9 }
+.SketchFill { fill: #f5f4f4; }
+.SketckOutline { stroke:#f03e3e; }
+.SpreadsheetFill { fill: #868e96; }
+.SpreadsheetLines { stroke:#495057; }
+.PlaceHolder { fill: #555555; fill-opacity: 1; }
+]]></style></defs><g
+     id="layer1"
+     style="display:none"
+     transform="translate(214.67331,-1768.2191)">&#10;     sodipodi:insensitive=&quot;true&quot;&#10;     style=&quot;display:none&quot;&gt;<rect
+   width="48"
+   height="48"
+   class="PlaceHolder"
+   id="PH_PartDesign_Fillet"
+   x="-214.67322"
+   y="1768.2191" /> </g><g
+     id="layer2"
+     transform="translate(214.67331,-1768.2191)"
+     style="display:inline"><g
+       id="g106"><path
+         id="rect51-6-9"
+         d="m -194.86748,1772.9016 c -7.79694,4e-4 -14.07393,6.2786 -14.07393,14.0775 v 16.8305 l 7.72589,7.7279 h 28.81046 v -30.9089 l -7.72588,-7.7279 z"
+         class="IconOutline  PartDesignFill" /><path
+         id="rect51-6-9-5"
+         class="IconOutline  ThickOutline"
+         d="m -194.86719,1772.1523 c -5.30157,-0.059 -10.47911,2.9946 -12.9916,7.6632 -1.46816,2.5914 -1.96824,5.6139 -1.83262,8.563 0,5.2475 0,10.4951 0,15.7426 2.72037,2.7236 5.44239,5.4456 8.16602,8.166 9.95703,0 19.91406,0 29.87109,0 0,-10.6562 0,-21.3125 0,-31.9687 -2.72207,-2.7226 -5.44394,-5.4454 -8.16601,-8.168 -5.01563,6e-4 -10.03125,0 -15.04688,0 z" /><path
+         d="m -194.86748,1772.9016 c -7.79691,0 -14.07393,6.2786 -14.07393,14.0775 l 7.72589,7.7279 c 0,-7.799 6.27699,-14.0776 14.07393,-14.0776 z"
+         class="IconOutline  SubtractiveFill"
+         id="rect51-6" /><path
+         id="rect51"
+         d="m -187.14159,1780.6286 c -7.79695,0 -14.07393,6.2786 -14.07393,14.0775 v 16.8314 h 28.81046 v -30.9089 z"
+         class="IconOutline" /></g></g></svg>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 48"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="FlatIconDefs"><style
+       id="FlatIconStlyle"><![CDATA[
+.IconOutline { 
+    fill:none;
+    stroke:#404040;
+    stroke-linecap:round;
+    stroke-width:1;
+}
+.DotOutline { stroke-dasharray:0.1, 2.5; }
+.ThickOutline { 
+    stroke-linejoin:miter;
+    stroke-miterlimit:3;
+    stroke-width:1;
+}
+.GenericFill { 
+    fill:#c0c0c0;
+}
+.GenericFillDark { fill: #6f758e }
+.OutlineAsFill { 
+    fill:#404040;
+}
+.BgFill { 
+    fill:#f0f0f0;
+}
+.SolidFill { fill:#3769ff }
+.MeshFill { fill:#7950f2; }
+.MeshFillDark { fill:#6b4cc8; }
+.DynDataFill { fill:#aea72c; }
+.DatumFill { 
+    fill:#aacaca;
+}
+.DatumOutline { stroke:#15aabf; }
+.PartDesignFill { 
+    fill:#bacaf0;
+}
+.TransformFill { 
+    fill:#bafaba;
+}
+.AdditiveFill { 
+    fill:#bafaba;
+}
+.SubtractiveFill { 
+    fill:#fababa;
+}
+.IntersectFill { fill: #4c6ef5; }
+.ImportFill { fill:#40c057; }
+.ExportFill { fill:#f03e3e; }
+.ViewFill { fill: #76A8F9 }
+.SketchFill { fill: #f5f4f4; }
+.SketckOutline { stroke:#f03e3e; }
+.SpreadsheetFill { fill: #868e96; }
+.SpreadsheetLines { stroke:#495057; }
+.PlaceHolder { fill: #555555; fill-opacity: 1; }
+]]></style></defs><g
+     id="layer1"
+     style="display:none"
+     transform="translate(214.67331,-712.2191)">&#10;     sodipodi:insensitive=&quot;true&quot;&#10;     style=&quot;display:none&quot;&gt;<rect
+   width="48"
+   height="48"
+   class="PlaceHolder"
+   id="PH_PartDesign_Body"
+   x="-214.67307"
+   y="712.21912" /> </g><g
+     id="layer2"
+     transform="translate(214.67331,-712.2191)"
+     style="display:inline"><g
+       id="g118"><g
+         style="display:inline;fill:none"
+         id="g61"
+         transform="translate(-210.78515,713.20972)"><path
+           id="path927-8"
+           class="IconOutline PartDesignFill"
+           d="m 2.1914062,12.853516 c -0.055989,6.83138 -0.1119791,13.66276 -0.1679687,20.49414 5.9277344,3.388021 11.8554685,6.776042 17.7832035,10.164063 5.901041,-3.360026 11.802083,-6.720052 17.703125,-10.080078 0.02604,-3.563151 0.05208,-7.126302 0.07813,-10.689453 -2.853541,-1.662067 -5.706876,-3.324486 -8.560547,-4.986329 -0.02945,-3.268878 -0.05857,-6.53776 -0.08789,-9.8066402 C 25.923828,6.1959635 22.908203,4.4427083 19.892578,2.6894531 13.992188,6.077474 8.0917969,9.4654948 2.1914062,12.853516 Z" /><path
+           id="path927-8-8"
+           class="IconOutline  ThickOutline "
+           d="M 1.4453125,12.417969 C 1.3867187,19.539063 1.328125,26.660156 1.2695312,33.78125 7.4485677,37.3125 13.627604,40.84375 19.806641,44.375 25.95638,40.873047 32.10612,37.371094 38.255859,33.869141 38.284509,30.016927 38.313149,26.164714 38.341799,22.3125 35.485658,20.649125 32.629689,18.985454 29.77344,17.322266 29.74399,14.053387 29.71487,10.784505 29.68555,7.515625 26.421136,5.6188169 23.15743,3.7193909 19.892578,1.8242188 13.74349,5.3554687 7.594401,8.8867188 1.4453125,12.417969 Z" /><path
+           id="path1139"
+           d="M 11.49976,28.162918 30.036233,17.481819 m 8.481311,4.91739 -18.361598,10.768653 M 29.686484,7.5157075 11.674635,18.284361 m -9.7928544,-5.778301 9.9677284,5.778301 -0.349749,9.893149 8.743618,4.815251 -0.174869,10.768653"
+           class="IconOutline" /></g><g
+         id="g117"
+         transform="translate(-2.0433354,-1.5042276)"><rect
+           id="rect375-7-1"
+           width="15"
+           height="15"
+           x="-179.6299"
+           y="746.72333"
+           rx="3.9999998"
+           ry="3.9999998"
+           class="OutlinesFill  OutlineAsFill" /><rect
+           id="rect984-7-9"
+           width="10"
+           height="3"
+           x="-177.12991"
+           y="752.72333"
+           class="BgFill" /><rect
+           id="rect984-3-5-9"
+           width="10"
+           height="3"
+           x="749.22333"
+           y="170.62991"
+           transform="rotate(90)"
+           class="BgFill" /></g></g></g></svg>

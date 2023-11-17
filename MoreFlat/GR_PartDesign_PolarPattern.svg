@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 48"
+   version="1.1"
+   id="svg1387"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="FlatIconDefs"><style
+       id="FlatIconStlyle"><![CDATA[
+.IconOutline { 
+    fill:none;
+    stroke:#404040;
+    stroke-linecap:round;
+    stroke-width:1;
+}
+.DotOutline { stroke-dasharray:0.1, 2.5; }
+.ThickOutline { 
+    stroke-linejoin:miter;
+    stroke-miterlimit:3;
+    stroke-width:1;
+}
+.GenericFill { 
+    fill:#c0c0c0;
+}
+.GenericFillDark { fill: #6f758e }
+.OutlineAsFill { 
+    fill:#404040;
+}
+.BgFill { 
+    fill:#f0f0f0;
+}
+.SolidFill { fill:#3769ff }
+.MeshFill { fill:#7950f2; }
+.MeshFillDark { fill:#6b4cc8; }
+.DynDataFill { fill:#aea72c; }
+.DatumFill { 
+    fill:#aacaca;
+}
+.DatumOutline { stroke:#15aabf; }
+.PartDesignFill { 
+    fill:#bacaf0;
+}
+.TransformFill { 
+    fill:#bafaba;
+}
+.AdditiveFill { 
+    fill:#bafaba;
+}
+.SubtractiveFill { 
+    fill:#fababa;
+}
+.IntersectFill { fill: #4c6ef5; }
+.ImportFill { fill:#40c057; }
+.ExportFill { fill:#f03e3e; }
+.ViewFill { fill: #76A8F9 }
+.SketchFill { fill: #f5f4f4; }
+.SketckOutline { stroke:#f03e3e; }
+.SpreadsheetFill { fill: #868e96; }
+.SpreadsheetLines { stroke:#495057; }
+.PlaceHolder { fill: #555555; fill-opacity: 1; }
+]]></style></defs><g
+     id="layer1"
+     style="display:none"
+     transform="translate(-169.32674,-616.2191)">&#10;     sodipodi:insensitive=&quot;true&quot;&#10;     style=&quot;display:none&quot;&gt;<rect
+   width="48"
+   height="48"
+   class="PlaceHolder"
+   id="PH_PartDesign_PolarPattern"
+   x="169.32681"
+   y="616.21912" /> </g><g
+     id="layer2"
+     transform="translate(-169.32674,-616.2191)"
+     style="display:inline"><path
+       d="m 179.07039,635.58233 v -11.00622 h 11.00622 l 4.41746,4.7458 v 10.6779 h -11.00621 z"
+       id="path146-0-50-2-7-1"
+       class="IconOutline  TransformFill" /><path
+       id="path121-6-4-5-24-3"
+       class="IconOutline"
+       d="m 183.48786,629.32191 v 10.6779 m 0,-10.6779 h 11.00621 m -15.42368,-4.74582 4.41747,4.74582" /><path
+       d="m 196.83112,647.6974 v -11.00621 h 11.00621 l 4.41747,4.74579 v 10.6779 h -11.00622 z"
+       id="path146-0-50-2-1"
+       class="IconOutline  TransformFill  MeshFillDark" /><path
+       id="path121-6-4-5-0"
+       class="IconOutline  MeshFillDark"
+       d="m 201.24858,641.43697 v 10.6779 m 0,-10.6779 h 11.00622 m -15.42368,-4.74581 4.41746,4.74581" /><path
+       d="m 174.40068,646.28365 v -11.00622 h 11.00621 l 4.41747,4.7458 v 10.6779 h -11.00622 z"
+       id="path146-0-50-2-62-3"
+       class="IconOutline  TransformFill" /><path
+       id="path121-6-4-5-9-4"
+       class="IconOutline"
+       d="m 178.81814,640.02323 v 10.6779 m 0,-10.6779 h 11.00622 m -15.42368,-4.74581 4.41746,4.74581" /><path
+       d="M 187.04273,654.33092 V 643.3247 h 11.00622 l 4.41746,4.7458 v 10.6779 h -11.00622 z"
+       id="path146-0-50-0"
+       class="IconOutline  TransformFill" /><path
+       id="path121-6-4-3"
+       class="IconOutline"
+       d="m 191.46019,648.07049 v 10.6779 m 0,-10.6779 h 11.00622 m -15.42368,-4.74581 4.41746,4.74581" /><path
+       d="m 192.93393,632.69519 v -11.00622 h 11.00622 l 4.41746,4.74579 v 10.67789 h -11.00622 z"
+       id="path146-0-50-2-6-1"
+       class="IconOutline  PartDesignFill" /><path
+       id="path146-0-50-2-7-1-1"
+       class="IconOutline  ThickOutline"
+       d="m 192.18359,621.68945 c 0,1.34961 0,2.69922 0,4.04883 -0.59384,-0.63728 -1.18673,-1.27546 -1.78125,-1.91211 -4.02734,0 -8.05468,0 -12.08203,0 0,3.56706 0,7.13412 0,10.70117 -1.55664,0 -3.11328,0 -4.66992,0 0,4.02214 0,8.04427 0,12.06641 1.6175,1.62077 3.23667,3.2399 4.85742,4.85742 2.59505,0 5.19011,0 7.78516,0 0,1.0638 0,2.12761 0,3.19141 1.61685,1.62012 3.23536,3.2386 4.85547,4.85547 4.02278,0 8.04557,0 12.06836,0 0,-2.21094 0,-4.42188 0,-6.63282 3.26237,0 6.52474,0 9.78711,0 0,-3.90755 0,-7.8151 0,-11.72265 -1.29821,-1.39641 -2.59776,-2.79158 -3.89649,-4.1875 0,-3.60482 0,-7.20964 0,-10.81446 -1.6134,-1.73421 -3.22707,-3.46818 -4.8418,-5.20117 -4.02734,0 -8.05468,0 -12.08203,0 0,0.25 0,0.5 0,0.75 z" /><path
+       id="path121-6-4-5-0-9"
+       class="IconOutline  MeshFillDark"
+       d="m 197.35139,626.43475 v 10.67791 m 0,-10.67791 h 11.00622 m -15.42368,-4.74581 4.41746,4.74581" /></g></svg>
