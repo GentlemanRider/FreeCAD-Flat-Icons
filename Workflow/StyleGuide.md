@@ -82,4 +82,4 @@ When edges from the back of a three dimensional shape are visible, they should b
 ## Parametric contour
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/ParametricContour.PNG" alt="drawing" style="width:600px;"/>
 
-Here the overall contour is renderend as transparent purple for clarity. Having a specific class for that allows to set a thinner outline on the CSS class and render 'thin' variations of the icon set.
+Here the overall contour is renderend as transparent purple for clarity. Having a specific class for that allows to set thinner outlines on CSS and render 'thin' variations of the icon set. An icon built according to this guide should render correctly with 1.5px / 3px all the way down to 0.75px / 0.75px 
