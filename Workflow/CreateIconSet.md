@@ -1,6 +1,6 @@
 # Creating an icon set
 
-The bare minimum package development happens with a master SVG file, derived from an existing package or from the template file. This ensures that the CSS part contains the standard classes.
+The bare minimum package development happens with a master SVG file, derived from an existing package or created using the _python generator TBD_. This ensures that the CSS part contains the standard classes.
 
 ## Creating the scope
 
@@ -28,9 +28,12 @@ in the add on folder. For Dynamic Data, this is the result:
     ./Resources/icons/ImportNamedConstraints.svg
     ./Resources/icons/RemoveProperty.svg
 
-Create all the required pages in Inkscape (see Inkscape guide TBD). The page labels must match the original file names:
+Create all the required pages in Inkscape. The page labels must match the original file names:
 
 <img src="https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/Workflow/Images/WorkflowInkscapePages.png" alt="drawing" style="width:800px;"/>
+
+It is possible to create the master file pages automatically using this [Jupyter Notebook](https://github.com/GentlemanRider/FreeCAD-Flat-Icons/blob/wip_GR_newIcons/MoreFlat/IconListScanner.ipynb) It is still raw, I am planning to clean it and migrate it to a standalone python script.
+
 
 ### Standard icons
 
