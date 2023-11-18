@@ -1,0 +1,12 @@
+./Resources/icons/Settings.svg
+./Resources/icons/DynamicDataCreateConfiguration.svg
+./Resources/icons/DynamicDataSVGLogo.svg
+./Resources/icons/DynamicDataLogo.svg
+./Resources/icons/CreateObject.svg
+./Resources/icons/AddProperty.svg
+./Resources/icons/DynamicDataPreferencesLogo.svg
+./Resources/icons/ImportAliases.svg
+./Resources/icons/CopyProperty.svg
+./Resources/icons/DynamicDataEditEnumerations.svg
+./Resources/icons/ImportNamedConstraints.svg
+./Resources/icons/RemoveProperty.svg
